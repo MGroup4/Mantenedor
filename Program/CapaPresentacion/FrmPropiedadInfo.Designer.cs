@@ -29,6 +29,7 @@ namespace CapaPresentacion
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPropiedadInfo));
             this.pictureBoxImgPropiedad = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -213,8 +214,9 @@ namespace CapaPresentacion
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBoxImgPropiedad);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmPropiedadInfo";
-            this.Text = "FormInfoPropiedad";
+            this.Text = "Comfy House - Información";
             this.Load += new System.EventHandler(this.FrmPropiedadInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImgPropiedad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();

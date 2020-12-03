@@ -90,6 +90,7 @@ namespace CapaPresentacion
             this.buttonMostrarVenta.TabIndex = 4;
             this.buttonMostrarVenta.Text = "Mostrar solo Venta";
             this.buttonMostrarVenta.UseVisualStyleBackColor = true;
+            this.buttonMostrarVenta.Click += new System.EventHandler(this.buttonMostrarVenta_Click);
             // 
             // buttonMostrarAlquiler
             // 
@@ -117,6 +118,7 @@ namespace CapaPresentacion
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormPropiedadesDispo";
             this.Text = "FormPropiedades";
+            this.Load += new System.EventHandler(this.FormPropiedadesDispo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

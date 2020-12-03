@@ -19,13 +19,13 @@ namespace CapaPresentacion
 
         public void AbrirFormEnPanel(object Formhijo)
         {
-            if (this.PView.Controls.Count > 0)
-                this.PView.Controls.RemoveAt(0);
+            if (this.Pvie.Controls.Count > 0)
+                this.Pvie.Controls.RemoveAt(0);
             Form fh = Formhijo as Form;
             fh.TopLevel = false;
             fh.Dock = DockStyle.Fill;
-            this.PView.Controls.Add(fh);
-            this.PView.Tag = fh;
+            this.Pvie.Controls.Add(fh);
+            this.Pvie.Tag = fh;
             fh.Show();
         }
 
