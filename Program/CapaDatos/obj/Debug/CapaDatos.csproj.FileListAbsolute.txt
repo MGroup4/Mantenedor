@@ -16,3 +16,12 @@ D:\GitHub\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInp
 D:\GitHub\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 D:\GitHub\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.dll
 D:\GitHub\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaDatos\obj\Debug\CapaDatos.pdb
