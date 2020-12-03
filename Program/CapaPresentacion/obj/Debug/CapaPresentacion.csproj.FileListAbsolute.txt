@@ -23,3 +23,10 @@ D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.c
 D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
 D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmUsuario.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

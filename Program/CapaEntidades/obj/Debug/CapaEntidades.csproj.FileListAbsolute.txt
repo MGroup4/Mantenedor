@@ -10,3 +10,9 @@ D:\GitHub\Paolo\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.csprojA
 D:\GitHub\Paolo\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
 D:\GitHub\Paolo\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.dll
 D:\GitHub\Paolo\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.pdb
+D:\GitHub\Mantenedor\Program\CapaEntidades\bin\Debug\CapaEntidades.dll
+D:\GitHub\Mantenedor\Program\CapaEntidades\bin\Debug\CapaEntidades.pdb
+D:\GitHub\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+D:\GitHub\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+D:\GitHub\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.dll
+D:\GitHub\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.pdb

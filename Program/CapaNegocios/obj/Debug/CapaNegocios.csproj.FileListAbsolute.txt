@@ -2,3 +2,7 @@ D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocios.csprojAss
 D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
 D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocio.dll
 D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocio.pdb
+D:\GitHub\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocios.csprojAssemblyReference.cache
+D:\GitHub\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+D:\GitHub\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocio.dll
+D:\GitHub\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocio.pdb
