@@ -55,11 +55,10 @@ namespace CapaPresentacion
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV.Location = new System.Drawing.Point(17, 70);
-            this.DGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DGV.Location = new System.Drawing.Point(13, 57);
             this.DGV.Name = "DGV";
             this.DGV.RowHeadersWidth = 51;
-            this.DGV.Size = new System.Drawing.Size(833, 702);
+            this.DGV.Size = new System.Drawing.Size(625, 570);
             this.DGV.TabIndex = 0;
             // 
             // label1
@@ -67,20 +66,18 @@ namespace CapaPresentacion
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(16, 25);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(294, 20);
+            this.label1.Size = new System.Drawing.Size(244, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mantenedor Agentes Inmobiliarios";
             // 
             // BtnEditar
             // 
             this.BtnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnEditar.Location = new System.Drawing.Point(944, 624);
-            this.BtnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEditar.Location = new System.Drawing.Point(708, 507);
             this.BtnEditar.Name = "BtnEditar";
-            this.BtnEditar.Size = new System.Drawing.Size(139, 62);
+            this.BtnEditar.Size = new System.Drawing.Size(104, 50);
             this.BtnEditar.TabIndex = 2;
             this.BtnEditar.Text = "Modificar Agente";
             this.BtnEditar.UseVisualStyleBackColor = true;
@@ -89,10 +86,9 @@ namespace CapaPresentacion
             // BtnEliminar
             // 
             this.BtnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnEliminar.Location = new System.Drawing.Point(875, 710);
-            this.BtnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEliminar.Location = new System.Drawing.Point(656, 577);
             this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(285, 62);
+            this.BtnEliminar.Size = new System.Drawing.Size(214, 50);
             this.BtnEliminar.TabIndex = 2;
             this.BtnEliminar.Text = "ELIMINAR";
             this.BtnEliminar.UseVisualStyleBackColor = true;
@@ -113,60 +109,53 @@ namespace CapaPresentacion
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox1.Location = new System.Drawing.Point(875, 70);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(656, 57);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(289, 372);
+            this.groupBox1.Size = new System.Drawing.Size(217, 302);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingresar";
             // 
             // TxtUsuarioID
             // 
-            this.TxtUsuarioID.Location = new System.Drawing.Point(12, 159);
-            this.TxtUsuarioID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtUsuarioID.Location = new System.Drawing.Point(9, 129);
             this.TxtUsuarioID.Name = "TxtUsuarioID";
-            this.TxtUsuarioID.Size = new System.Drawing.Size(268, 22);
-            this.TxtUsuarioID.TabIndex = 6;
+            this.TxtUsuarioID.Size = new System.Drawing.Size(202, 20);
+            this.TxtUsuarioID.TabIndex = 3;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(8, 140);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(6, 114);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 17);
+            this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "UsuarioID";
             // 
             // TxtID
             // 
-            this.TxtID.Location = new System.Drawing.Point(12, 59);
-            this.TxtID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtID.Location = new System.Drawing.Point(9, 48);
             this.TxtID.Name = "TxtID";
-            this.TxtID.Size = new System.Drawing.Size(268, 22);
-            this.TxtID.TabIndex = 4;
+            this.TxtID.Size = new System.Drawing.Size(202, 20);
+            this.TxtID.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(8, 39);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(6, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(21, 17);
+            this.label4.Size = new System.Drawing.Size(18, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "ID";
             // 
             // BtnGuardar
             // 
             this.BtnGuardar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnGuardar.Location = new System.Drawing.Point(69, 306);
-            this.BtnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGuardar.Location = new System.Drawing.Point(52, 249);
             this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(159, 33);
+            this.BtnGuardar.Size = new System.Drawing.Size(119, 27);
             this.BtnGuardar.TabIndex = 2;
             this.BtnGuardar.Text = "GUARDAR";
             this.BtnGuardar.UseVisualStyleBackColor = true;
@@ -174,36 +163,32 @@ namespace CapaPresentacion
             // 
             // TxtTelefono
             // 
-            this.TxtTelefono.Location = new System.Drawing.Point(12, 267);
-            this.TxtTelefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtTelefono.Location = new System.Drawing.Point(9, 217);
             this.TxtTelefono.Name = "TxtTelefono";
-            this.TxtTelefono.Size = new System.Drawing.Size(268, 22);
-            this.TxtTelefono.TabIndex = 1;
+            this.TxtTelefono.Size = new System.Drawing.Size(202, 20);
+            this.TxtTelefono.TabIndex = 5;
             // 
             // TxtDNI
             // 
-            this.TxtDNI.Location = new System.Drawing.Point(12, 207);
-            this.TxtDNI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtDNI.Location = new System.Drawing.Point(9, 168);
             this.TxtDNI.Name = "TxtDNI";
-            this.TxtDNI.Size = new System.Drawing.Size(268, 22);
-            this.TxtDNI.TabIndex = 1;
+            this.TxtDNI.Size = new System.Drawing.Size(202, 20);
+            this.TxtDNI.TabIndex = 4;
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(12, 111);
-            this.TxtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNombre.Location = new System.Drawing.Point(9, 90);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(268, 22);
-            this.TxtNombre.TabIndex = 1;
+            this.TxtNombre.Size = new System.Drawing.Size(202, 20);
+            this.TxtNombre.TabIndex = 2;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(8, 247);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(6, 201);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(68, 17);
+            this.label8.Size = new System.Drawing.Size(52, 13);
             this.label8.TabIndex = 0;
             this.label8.Text = "Teléfono:";
             // 
@@ -211,10 +196,9 @@ namespace CapaPresentacion
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(8, 187);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(6, 152);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 17);
+            this.label7.Size = new System.Drawing.Size(29, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "DNI:";
             // 
@@ -222,26 +206,24 @@ namespace CapaPresentacion
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(8, 90);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(6, 73);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 17);
+            this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Nombre:";
             // 
             // FrmAgente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(105)))), ((int)(((byte)(189)))));
-            this.ClientSize = new System.Drawing.Size(1180, 807);
+            this.ClientSize = new System.Drawing.Size(885, 656);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BtnEliminar);
             this.Controls.Add(this.BtnEditar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DGV);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmAgente";
             this.Text = "FormAgentes";
             this.Load += new System.EventHandler(this.FormAgentes_Load);

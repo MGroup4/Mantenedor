@@ -98,7 +98,7 @@ namespace CapaPresentacion
             this.textBoxVentaTelefono.Location = new System.Drawing.Point(104, 188);
             this.textBoxVentaTelefono.Name = "textBoxVentaTelefono";
             this.textBoxVentaTelefono.Size = new System.Drawing.Size(284, 20);
-            this.textBoxVentaTelefono.TabIndex = 3;
+            this.textBoxVentaTelefono.TabIndex = 4;
             // 
             // label5
             // 
@@ -130,7 +130,7 @@ namespace CapaPresentacion
             this.textBoxVentaDNI.Location = new System.Drawing.Point(277, 103);
             this.textBoxVentaDNI.Name = "textBoxVentaDNI";
             this.textBoxVentaDNI.Size = new System.Drawing.Size(111, 20);
-            this.textBoxVentaDNI.TabIndex = 3;
+            this.textBoxVentaDNI.TabIndex = 2;
             // 
             // label3
             // 
@@ -146,7 +146,7 @@ namespace CapaPresentacion
             this.textBoxVentaPrecio.Location = new System.Drawing.Point(62, 103);
             this.textBoxVentaPrecio.Name = "textBoxVentaPrecio";
             this.textBoxVentaPrecio.Size = new System.Drawing.Size(142, 20);
-            this.textBoxVentaPrecio.TabIndex = 3;
+            this.textBoxVentaPrecio.TabIndex = 1;
             // 
             // label2
             // 
@@ -222,7 +222,7 @@ namespace CapaPresentacion
             this.textBoxAlquilerTelefono.Location = new System.Drawing.Point(113, 230);
             this.textBoxAlquilerTelefono.Name = "textBoxAlquilerTelefono";
             this.textBoxAlquilerTelefono.Size = new System.Drawing.Size(284, 20);
-            this.textBoxAlquilerTelefono.TabIndex = 3;
+            this.textBoxAlquilerTelefono.TabIndex = 8;
             // 
             // label10
             // 
@@ -252,7 +252,7 @@ namespace CapaPresentacion
             this.textBoxAlquilerNombre.Location = new System.Drawing.Point(113, 188);
             this.textBoxAlquilerNombre.Name = "textBoxAlquilerNombre";
             this.textBoxAlquilerNombre.Size = new System.Drawing.Size(284, 20);
-            this.textBoxAlquilerNombre.TabIndex = 3;
+            this.textBoxAlquilerNombre.TabIndex = 7;
             // 
             // label11
             // 
@@ -313,21 +313,21 @@ namespace CapaPresentacion
             this.textBoxAlquilerDNI.Location = new System.Drawing.Point(286, 145);
             this.textBoxAlquilerDNI.Name = "textBoxAlquilerDNI";
             this.textBoxAlquilerDNI.Size = new System.Drawing.Size(111, 20);
-            this.textBoxAlquilerDNI.TabIndex = 3;
+            this.textBoxAlquilerDNI.TabIndex = 6;
             // 
             // textBoxPrecioPorCuotas
             // 
             this.textBoxPrecioPorCuotas.Location = new System.Drawing.Point(123, 411);
             this.textBoxPrecioPorCuotas.Name = "textBoxPrecioPorCuotas";
             this.textBoxPrecioPorCuotas.Size = new System.Drawing.Size(274, 20);
-            this.textBoxPrecioPorCuotas.TabIndex = 3;
+            this.textBoxPrecioPorCuotas.TabIndex = 10;
             // 
             // textBoxCuotas
             // 
             this.textBoxCuotas.Location = new System.Drawing.Point(113, 272);
             this.textBoxCuotas.Name = "textBoxCuotas";
             this.textBoxCuotas.Size = new System.Drawing.Size(142, 20);
-            this.textBoxCuotas.TabIndex = 3;
+            this.textBoxCuotas.TabIndex = 9;
             this.textBoxCuotas.TextChanged += new System.EventHandler(this.textBoxCuotas_TextChanged);
             // 
             // textBoxAlquilerPrecio
@@ -335,7 +335,7 @@ namespace CapaPresentacion
             this.textBoxAlquilerPrecio.Location = new System.Drawing.Point(71, 145);
             this.textBoxAlquilerPrecio.Name = "textBoxAlquilerPrecio";
             this.textBoxAlquilerPrecio.Size = new System.Drawing.Size(142, 20);
-            this.textBoxAlquilerPrecio.TabIndex = 3;
+            this.textBoxAlquilerPrecio.TabIndex = 5;
             // 
             // label8
             // 

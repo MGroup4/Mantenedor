@@ -132,7 +132,7 @@ namespace CapaPresentacion
             this.TxtUbicacion.Location = new System.Drawing.Point(629, 41);
             this.TxtUbicacion.Name = "TxtUbicacion";
             this.TxtUbicacion.Size = new System.Drawing.Size(229, 20);
-            this.TxtUbicacion.TabIndex = 9;
+            this.TxtUbicacion.TabIndex = 1;
             // 
             // TxtPrecio
             // 
@@ -140,7 +140,7 @@ namespace CapaPresentacion
             this.TxtPrecio.Location = new System.Drawing.Point(630, 104);
             this.TxtPrecio.Name = "TxtPrecio";
             this.TxtPrecio.Size = new System.Drawing.Size(228, 20);
-            this.TxtPrecio.TabIndex = 10;
+            this.TxtPrecio.TabIndex = 2;
             // 
             // TxtDormitorios
             // 
@@ -148,7 +148,7 @@ namespace CapaPresentacion
             this.TxtDormitorios.Location = new System.Drawing.Point(630, 175);
             this.TxtDormitorios.Name = "TxtDormitorios";
             this.TxtDormitorios.Size = new System.Drawing.Size(228, 20);
-            this.TxtDormitorios.TabIndex = 11;
+            this.TxtDormitorios.TabIndex = 3;
             // 
             // TxtBaños
             // 
@@ -156,7 +156,7 @@ namespace CapaPresentacion
             this.TxtBaños.Location = new System.Drawing.Point(630, 238);
             this.TxtBaños.Name = "TxtBaños";
             this.TxtBaños.Size = new System.Drawing.Size(228, 20);
-            this.TxtBaños.TabIndex = 12;
+            this.TxtBaños.TabIndex = 4;
             // 
             // TxtEstacionamiento
             // 
@@ -164,7 +164,7 @@ namespace CapaPresentacion
             this.TxtEstacionamiento.Location = new System.Drawing.Point(630, 299);
             this.TxtEstacionamiento.Name = "TxtEstacionamiento";
             this.TxtEstacionamiento.Size = new System.Drawing.Size(228, 20);
-            this.TxtEstacionamiento.TabIndex = 13;
+            this.TxtEstacionamiento.TabIndex = 5;
             // 
             // TxtTamaño
             // 
@@ -172,7 +172,7 @@ namespace CapaPresentacion
             this.TxtTamaño.Location = new System.Drawing.Point(630, 363);
             this.TxtTamaño.Name = "TxtTamaño";
             this.TxtTamaño.Size = new System.Drawing.Size(228, 20);
-            this.TxtTamaño.TabIndex = 14;
+            this.TxtTamaño.TabIndex = 6;
             // 
             // button1
             // 

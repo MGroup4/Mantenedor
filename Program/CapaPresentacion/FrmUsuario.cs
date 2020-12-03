@@ -75,7 +75,7 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     MensajeError("No se pudo insertar el registro");
                 }
@@ -97,7 +97,7 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     MensajeError("No se pudo modificar el registro");
                 }
