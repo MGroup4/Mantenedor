@@ -40,12 +40,8 @@ namespace CapaPresentacion
         {
             TxtPrecioA.Text = "";
             TxtDNIA.Text = "";
-            //TxtNombreA.Text = "";
-            //TxtTelefonoA.Text = "";
             TxtPrecioV.Text = "";
             TxtDNIV.Text = "";
-            //TxtNombreV.Text = "";
-            //TxtTelefonoV.Text = "";
             TxtCuotas.Text = "";
             TxtPrecioCuotas.Text = "";
         }
@@ -96,46 +92,6 @@ namespace CapaPresentacion
         {
             double result = Convert.ToDouble(TxtPrecioA.Text) / Convert.ToDouble(TxtCuotas.Text);
             TxtPrecioCuotas.Text = result.ToString();
-        }
-
-        private void TxtNombreA_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtTelefonoA_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtNombreV_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtTelefonoV_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

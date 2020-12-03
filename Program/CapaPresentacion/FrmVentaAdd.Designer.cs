@@ -59,7 +59,7 @@ namespace CapaPresentacion
             // 
             // BtnVenta
             // 
-            this.BtnVenta.Location = new System.Drawing.Point(230, 557);
+            this.BtnVenta.Location = new System.Drawing.Point(230, 382);
             this.BtnVenta.Name = "BtnVenta";
             this.BtnVenta.Size = new System.Drawing.Size(189, 59);
             this.BtnVenta.TabIndex = 0;
@@ -77,7 +77,7 @@ namespace CapaPresentacion
             this.groupBox1.Controls.Add(this.DTPFechaV);
             this.groupBox1.Location = new System.Drawing.Point(13, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(419, 517);
+            this.groupBox1.Size = new System.Drawing.Size(419, 364);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Realizar Venta";
@@ -100,7 +100,7 @@ namespace CapaPresentacion
             // 
             // TxtPrecioV
             // 
-            this.TxtPrecioV.Location = new System.Drawing.Point(62, 103);
+            this.TxtPrecioV.Location = new System.Drawing.Point(58, 103);
             this.TxtPrecioV.Name = "TxtPrecioV";
             this.TxtPrecioV.Size = new System.Drawing.Size(142, 20);
             this.TxtPrecioV.TabIndex = 1;
@@ -108,7 +108,7 @@ namespace CapaPresentacion
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 103);
+            this.label2.Location = new System.Drawing.Point(15, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 2;
@@ -132,7 +132,7 @@ namespace CapaPresentacion
             // 
             // BtnAlquiler
             // 
-            this.BtnAlquiler.Location = new System.Drawing.Point(460, 557);
+            this.BtnAlquiler.Location = new System.Drawing.Point(460, 382);
             this.BtnAlquiler.Name = "BtnAlquiler";
             this.BtnAlquiler.Size = new System.Drawing.Size(171, 59);
             this.BtnAlquiler.TabIndex = 2;
@@ -157,14 +157,14 @@ namespace CapaPresentacion
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Location = new System.Drawing.Point(449, 13);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(424, 516);
+            this.groupBox2.Size = new System.Drawing.Size(424, 363);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Realizar Alquiler";
             // 
             // BtnCalcular
             // 
-            this.BtnCalcular.Location = new System.Drawing.Point(171, 323);
+            this.BtnCalcular.Location = new System.Drawing.Point(250, 197);
             this.BtnCalcular.Name = "BtnCalcular";
             this.BtnCalcular.Size = new System.Drawing.Size(142, 59);
             this.BtnCalcular.TabIndex = 4;
@@ -207,7 +207,7 @@ namespace CapaPresentacion
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(27, 411);
+            this.label13.Location = new System.Drawing.Point(27, 285);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(90, 13);
             this.label13.TabIndex = 2;
@@ -216,7 +216,7 @@ namespace CapaPresentacion
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(28, 275);
+            this.label12.Location = new System.Drawing.Point(27, 197);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(40, 13);
             this.label12.TabIndex = 2;
@@ -233,21 +233,21 @@ namespace CapaPresentacion
             // 
             // TxtDNIA
             // 
-            this.TxtDNIA.Location = new System.Drawing.Point(286, 145);
+            this.TxtDNIA.Location = new System.Drawing.Point(281, 142);
             this.TxtDNIA.Name = "TxtDNIA";
             this.TxtDNIA.Size = new System.Drawing.Size(111, 20);
             this.TxtDNIA.TabIndex = 6;
             // 
             // TxtPrecioCuotas
             // 
-            this.TxtPrecioCuotas.Location = new System.Drawing.Point(123, 411);
+            this.TxtPrecioCuotas.Location = new System.Drawing.Point(123, 285);
             this.TxtPrecioCuotas.Name = "TxtPrecioCuotas";
             this.TxtPrecioCuotas.Size = new System.Drawing.Size(274, 20);
             this.TxtPrecioCuotas.TabIndex = 10;
             // 
             // TxtCuotas
             // 
-            this.TxtCuotas.Location = new System.Drawing.Point(113, 272);
+            this.TxtCuotas.Location = new System.Drawing.Point(71, 194);
             this.TxtCuotas.Name = "TxtCuotas";
             this.TxtCuotas.Size = new System.Drawing.Size(142, 20);
             this.TxtCuotas.TabIndex = 9;
@@ -262,7 +262,7 @@ namespace CapaPresentacion
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(223, 148);
+            this.label8.Location = new System.Drawing.Point(219, 145);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(61, 13);
             this.label8.TabIndex = 2;
@@ -272,13 +272,14 @@ namespace CapaPresentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 628);
+            this.ClientSize = new System.Drawing.Size(885, 458);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.BtnAlquiler);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BtnVenta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmVentaAdd";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Comfy Houser - Venta/Aqluiler";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

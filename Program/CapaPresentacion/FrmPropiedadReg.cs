@@ -42,13 +42,6 @@ namespace CapaPresentacion
             formulariom.ShowDialog();
         }
 
-        private void buttonMostrarInfo_Click(object sender, EventArgs e)
-        {
-            FrmPropiedadInfo formulariom = new FrmPropiedadInfo();
-            formulariom.FormClosed += new FormClosedEventHandler(ActualizarDatos);
-            formulariom.ShowDialog();
-        }
-
         private void FormPropiedadesDispo_Load(object sender, EventArgs e)
         {
             MostrarRegistro();

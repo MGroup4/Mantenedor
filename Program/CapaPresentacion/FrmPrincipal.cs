@@ -31,7 +31,7 @@ namespace CapaPresentacion
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new FrmAgente());
+            AbrirFormEnPanel(new FrmUsuario());
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)

@@ -32,7 +32,6 @@ namespace CapaPresentacion
             this.DGV = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonComprarAlquilar = new System.Windows.Forms.Button();
-            this.buttonMostrarInfo = new System.Windows.Forms.Button();
             this.buttonMostrarVenta = new System.Windows.Forms.Button();
             this.buttonMostrarAlquiler = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).BeginInit();
@@ -70,17 +69,6 @@ namespace CapaPresentacion
             this.buttonComprarAlquilar.UseVisualStyleBackColor = true;
             this.buttonComprarAlquilar.Click += new System.EventHandler(this.buttonComprarAlquilar_Click);
             // 
-            // buttonMostrarInfo
-            // 
-            this.buttonMostrarInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonMostrarInfo.Location = new System.Drawing.Point(672, 428);
-            this.buttonMostrarInfo.Name = "buttonMostrarInfo";
-            this.buttonMostrarInfo.Size = new System.Drawing.Size(203, 54);
-            this.buttonMostrarInfo.TabIndex = 3;
-            this.buttonMostrarInfo.Text = "Mostrar Información";
-            this.buttonMostrarInfo.UseVisualStyleBackColor = true;
-            this.buttonMostrarInfo.Click += new System.EventHandler(this.buttonMostrarInfo_Click);
-            // 
             // buttonMostrarVenta
             // 
             this.buttonMostrarVenta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -111,7 +99,6 @@ namespace CapaPresentacion
             this.ClientSize = new System.Drawing.Size(896, 581);
             this.Controls.Add(this.buttonMostrarAlquiler);
             this.Controls.Add(this.buttonMostrarVenta);
-            this.Controls.Add(this.buttonMostrarInfo);
             this.Controls.Add(this.buttonComprarAlquilar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DGV);
@@ -131,7 +118,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.DataGridView DGV;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonComprarAlquilar;
-        private System.Windows.Forms.Button buttonMostrarInfo;
         private System.Windows.Forms.Button buttonMostrarVenta;
         private System.Windows.Forms.Button buttonMostrarAlquiler;
     }
