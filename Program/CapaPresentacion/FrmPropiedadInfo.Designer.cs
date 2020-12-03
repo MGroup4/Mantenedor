@@ -175,7 +175,7 @@ namespace CapaPresentacion
             this.DGV.Size = new System.Drawing.Size(816, 130);
             this.DGV.TabIndex = 16;
             // 
-            // FormInfoPropiedadDispo
+            // FrmPropiedadInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -195,7 +195,7 @@ namespace CapaPresentacion
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBoxImgPropiedad);
-            this.Name = "FormInfoPropiedadDispo";
+            this.Name = "FrmPropiedadInfo";
             this.Text = "FormInfoPropiedad";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImgPropiedad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();

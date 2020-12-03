@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaEntidades;
+using CapaNegocio;
 using CapaNegocios;
 
 namespace CapaPresentacion
@@ -14,10 +16,18 @@ namespace CapaPresentacion
     public partial class FrmPropiedadInfo : Form
     {
 
+        private bool Editar = false;
+        readonly E_Propiedad ObjEntidad = new E_Propiedad();
+        readonly N_Propiedad ObjNegocio = new N_Propiedad();
+
         public FrmPropiedadInfo()
         {
             InitializeComponent();
         }
 
+        public void MostrarRegistro()
+        {
+            DGV.DataSource = N_Propiedad.MostrarRegistro();
+        }
     }
 }
