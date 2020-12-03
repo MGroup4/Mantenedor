@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CapaDatos;
+using CapaEntidades;
 
 namespace CapaNegocio
 {
-    class N_Propiedad
+    public class N_Propiedad
     {
         readonly D_Propiedad ObjPropiedad = new D_Propiedad();
 

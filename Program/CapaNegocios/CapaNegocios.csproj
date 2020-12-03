@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -50,13 +51,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{dda8b0a8-3db5-4ecf-abb3-12fb510a0848}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj">
       <Project>{47b0cdb6-94c8-49bd-9383-d06fbe32ea3f}</Project>
       <Name>CapaEntidades</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CapaLogica\CapaDatos.csproj">
-      <Project>{aa980755-724e-492a-9630-b4797c48220b}</Project>
-      <Name>CapaDatos</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -50,7 +50,7 @@
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.TxtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtNombre.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.TxtNombre.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNombre.ForeColor = System.Drawing.SystemColors.Window;
@@ -61,7 +61,7 @@
             // 
             // Nombre
             // 
-            this.Nombre.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.Nombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Nombre.AutoSize = true;
             this.Nombre.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nombre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -90,6 +90,7 @@
             // BtnGuardar
             // 
             this.BtnGuardar.Activecolor = System.Drawing.SystemColors.WindowFrame;
+            this.BtnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnGuardar.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.BtnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnGuardar.BorderRadius = 0;
@@ -125,6 +126,7 @@
             // BtnEditar
             // 
             this.BtnEditar.Activecolor = System.Drawing.SystemColors.WindowFrame;
+            this.BtnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnEditar.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.BtnEditar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnEditar.BorderRadius = 0;
@@ -160,6 +162,7 @@
             // BtnEliminar
             // 
             this.BtnEliminar.Activecolor = System.Drawing.SystemColors.WindowFrame;
+            this.BtnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnEliminar.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.BtnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnEliminar.BorderRadius = 0;
@@ -194,7 +197,7 @@
             // 
             // TxtUsuarioID
             // 
-            this.TxtUsuarioID.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.TxtUsuarioID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtUsuarioID.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.TxtUsuarioID.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUsuarioID.ForeColor = System.Drawing.SystemColors.Window;
@@ -205,7 +208,7 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -217,7 +220,7 @@
             // 
             // TxtContraseña
             // 
-            this.TxtContraseña.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.TxtContraseña.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtContraseña.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.TxtContraseña.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtContraseña.ForeColor = System.Drawing.SystemColors.Window;
@@ -228,7 +231,7 @@
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -240,7 +243,7 @@
             // 
             // TxtRango
             // 
-            this.TxtRango.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.TxtRango.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtRango.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.TxtRango.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtRango.ForeColor = System.Drawing.SystemColors.Window;
@@ -251,7 +254,7 @@
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -263,7 +266,7 @@
             // 
             // TxtDNI
             // 
-            this.TxtDNI.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.TxtDNI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtDNI.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.TxtDNI.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtDNI.ForeColor = System.Drawing.SystemColors.Window;
@@ -274,7 +277,7 @@
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -286,7 +289,7 @@
             // 
             // TxtTelefono
             // 
-            this.TxtTelefono.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.TxtTelefono.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtTelefono.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.TxtTelefono.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtTelefono.ForeColor = System.Drawing.SystemColors.Window;
@@ -297,7 +300,7 @@
             // 
             // label5
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -329,7 +332,7 @@
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.Nombre);
             this.Controls.Add(this.DGV);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmUsuario";
             this.Text = "MANTENEDOR USUARIO";

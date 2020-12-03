@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Configuration;
 using CapaEntidades;
 
 namespace CapaDatos
 {
-    class D_AgenteDeInmobiliaria
+    public class D_AgenteDeInmobiliaria
     {
         readonly SqlConnection conectar = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
 

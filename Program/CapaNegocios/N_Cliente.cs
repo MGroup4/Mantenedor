@@ -9,7 +9,7 @@ using CapaEntidades;
 
 namespace CapaNegocios
 {
-    class N_Cliente
+    public class N_Cliente
     {
         readonly D_Cliente ObjCliente = new D_Cliente();
 

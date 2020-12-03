@@ -51,6 +51,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPropiedad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPropiedad.Designer.cs">
+      <DependentUpon>FrmPropiedad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgente.Designer.cs">
+      <DependentUpon>FrmAgente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPropiedadInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPropiedadInfo.Designer.cs">
+      <DependentUpon>FrmPropiedadInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPropiedadReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPropiedadReg.Designer.cs">
+      <DependentUpon>FrmPropiedadReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVentaAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentaAdd.Designer.cs">
+      <DependentUpon>FrmVentaAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +95,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgente.resx">
+      <DependentUpon>FrmAgente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPropiedad.resx">
+      <DependentUpon>FrmPropiedad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPropiedadInfo.resx">
+      <DependentUpon>FrmPropiedadInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPropiedadReg.resx">
+      <DependentUpon>FrmPropiedadReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentaAdd.resx">
+      <DependentUpon>FrmVentaAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuario.resx">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,7 +144,7 @@
       <Name>CapaEntidades</Name>
     </ProjectReference>
     <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
-      <Project>{3cf8c54a-7f4a-48dd-bdca-d60fb05527aa}</Project>
+      <Project>{f54502fd-a3ce-4dca-be7b-5f3b8a0f7802}</Project>
       <Name>CapaNegocios</Name>
     </ProjectReference>
   </ItemGroup>

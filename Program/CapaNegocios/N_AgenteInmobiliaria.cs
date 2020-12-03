@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data;
 using CapaDatos;
 using CapaEntidades;
 
 namespace CapaNegocios
 {
-    class N_AgenteInmobiliaria
+    public class N_AgenteInmobiliaria
     {
         readonly D_AgenteDeInmobiliaria ObjAgente = new D_AgenteDeInmobiliaria();
 
