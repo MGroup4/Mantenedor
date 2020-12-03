@@ -9,7 +9,7 @@ using CapaEntidades;
 
 namespace CapaNegocio
 {
-    class N_Propiedad
+    public class N_Propiedad
     {
         readonly D_Propiedad ObjPropiedad = new D_Propiedad();
 
