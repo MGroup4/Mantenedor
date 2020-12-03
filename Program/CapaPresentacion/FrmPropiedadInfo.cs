@@ -29,5 +29,10 @@ namespace CapaPresentacion
         {
             DGV.DataSource = N_Propiedad.MostrarRegistro();
         }
+
+        private void FrmPropiedadInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

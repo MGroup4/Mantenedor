@@ -68,7 +68,7 @@ namespace CapaPresentacion
                 {
 
                     ObjEntidad.PropiedadID = Convert.ToInt32(TxtPropiedadID.Text.ToUpper());
-                    ObjEntidad.AgenteDeInmobiliariaID =  Convert.ToInt32(TxtAgente.Text.ToUpper();
+                    ObjEntidad.AgenteDeInmobiliariaID =  Convert.ToInt32(TxtAgente.Text.ToUpper());
                     ObjEntidad.ValorDeVenta = Convert.ToInt32(TxtValorDeVenta.Text.ToUpper());
                     ObjEntidad.Ubicacion = TxtUbicacion.Text.ToUpper();
                     ObjEntidad.Dormitorios = Convert.ToInt32(TxtDormitorios.Text.ToUpper());
@@ -92,7 +92,7 @@ namespace CapaPresentacion
                 try
                 {
                     ObjEntidad.PropiedadID = Convert.ToInt32(TxtPropiedadID.Text.ToUpper());
-                    ObjEntidad.AgenteDeInmobiliariaID = Convert.ToInt32(TxtAgente.Text.ToUpper();
+                    ObjEntidad.AgenteDeInmobiliariaID = Convert.ToInt32(TxtAgente.Text.ToUpper());
                     ObjEntidad.ValorDeVenta = Convert.ToInt32(TxtValorDeVenta.Text.ToUpper());
                     ObjEntidad.Ubicacion = TxtUbicacion.Text.ToUpper();
                     ObjEntidad.Dormitorios = Convert.ToInt32(TxtDormitorios.Text.ToUpper());

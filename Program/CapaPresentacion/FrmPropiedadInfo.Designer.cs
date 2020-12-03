@@ -197,6 +197,7 @@ namespace CapaPresentacion
             this.Controls.Add(this.pictureBoxImgPropiedad);
             this.Name = "FrmPropiedadInfo";
             this.Text = "FormInfoPropiedad";
+            this.Load += new System.EventHandler(this.FrmPropiedadInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImgPropiedad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();
             this.ResumeLayout(false);
