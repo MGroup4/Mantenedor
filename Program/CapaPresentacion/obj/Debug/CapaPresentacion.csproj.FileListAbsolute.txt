@@ -16,3 +16,10 @@ C:\Users\javie\Desktop\INMOBILIARIA\CapaPresentacion\obj\Debug\CapaPresentacion.
 C:\Users\javie\Desktop\INMOBILIARIA\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\javie\Desktop\INMOBILIARIA\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\javie\Desktop\INMOBILIARIA\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmUsuario.resources
+D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+D:\GitHub\Paolo\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

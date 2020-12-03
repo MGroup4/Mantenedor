@@ -1,0 +1,4 @@
+D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocios.csprojAssemblyReference.cache
+D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocio.dll
+D:\GitHub\Paolo\Mantenedor\Program\CapaNegocios\obj\Debug\CapaNegocio.pdb
