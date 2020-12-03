@@ -22,3 +22,9 @@ C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.
 C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\PEDRO\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaEntidades\obj\Debug\CapaEntidades.pdb

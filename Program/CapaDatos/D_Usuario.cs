@@ -42,7 +42,7 @@ namespace CapaDatos
             SqlCmd.Parameters.AddWithValue("@DNI", usuario.DNI);
             SqlCmd.Parameters.AddWithValue("@Contrasenia", usuario.Contraseña);
             SqlCmd.Parameters.AddWithValue("@Telefono", usuario.Telefono);
-            SqlCmd.Parameters.AddWithValue("@Rango", usuario.Rango);
+            SqlCmd.Parameters.AddWithValue("@RangoID", usuario.Rango);
 
             SqlCmd.ExecuteNonQuery();
 
@@ -56,6 +56,7 @@ namespace CapaDatos
                 CommandType = CommandType.StoredProcedure
             };
 
+          
             conectar.Open();
 
             SqlCmd.Parameters.AddWithValue("@Nombre", usuario.Nombre);
@@ -63,11 +64,12 @@ namespace CapaDatos
             SqlCmd.Parameters.AddWithValue("@DNI", usuario.DNI);
             SqlCmd.Parameters.AddWithValue("@Contrasenia", usuario.Contraseña);
             SqlCmd.Parameters.AddWithValue("@Telefono", usuario.Telefono);
-            SqlCmd.Parameters.AddWithValue("@Rango", usuario.Rango);
+            SqlCmd.Parameters.AddWithValue("@RangoID", usuario.Rango);
 
             SqlCmd.ExecuteNonQuery();
 
             conectar.Close();
+          
         }
 
         public void EliminarRegistro(E_Usuario usuario)

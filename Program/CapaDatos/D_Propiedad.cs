@@ -44,7 +44,8 @@ namespace CapaDatos
             SqlCmd.Parameters.AddWithValue("@Dormitorios", propiedad.Dormitorios);
             SqlCmd.Parameters.AddWithValue("@Banios", propiedad.Baños);
             SqlCmd.Parameters.AddWithValue("@Estacionamiento", propiedad.Estacionamiento);
-            SqlCmd.Parameters.AddWithValue("@Tamanio", propiedad.Tamaño);          
+            SqlCmd.Parameters.AddWithValue("@Tamanio", propiedad.Tamaño);
+            SqlCmd.Parameters.AddWithValue("@Descripcion", propiedad.Descripcion);
 
             SqlCmd.ExecuteNonQuery();
 
@@ -68,6 +69,7 @@ namespace CapaDatos
             SqlCmd.Parameters.AddWithValue("@Banios", propiedad.Baños);
             SqlCmd.Parameters.AddWithValue("@Estacionamiento", propiedad.Estacionamiento);
             SqlCmd.Parameters.AddWithValue("@Tamanio", propiedad.Tamaño);
+            SqlCmd.Parameters.AddWithValue("@Descripcion", propiedad.Descripcion);
 
             SqlCmd.ExecuteNonQuery();
 

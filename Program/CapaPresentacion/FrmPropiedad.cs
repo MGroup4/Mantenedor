@@ -57,6 +57,8 @@ namespace CapaPresentacion
             TxtBaños.Text = "";
             TxtEstacionamiento.Text = "";
             TxtTamaño.Text = "";
+            TxtDescripcion.Text = "";
+
             TxtPropiedadID.Focus();
         }
 
@@ -70,11 +72,12 @@ namespace CapaPresentacion
                     ObjEntidad.PropiedadID = Convert.ToInt32(TxtPropiedadID.Text.ToUpper());
                     ObjEntidad.AgenteDeInmobiliariaID =  Convert.ToInt32(TxtAgente.Text.ToUpper());
                     ObjEntidad.ValorDeVenta = Convert.ToInt32(TxtValorDeVenta.Text.ToUpper());
-                    ObjEntidad.Ubicacion = TxtUbicacion.Text.ToUpper();
+                    ObjEntidad.Ubicacion = TxtUbicacion.Text;
                     ObjEntidad.Dormitorios = Convert.ToInt32(TxtDormitorios.Text.ToUpper());
                     ObjEntidad.Baños = Convert.ToInt32(TxtBaños.Text.ToUpper());
                     ObjEntidad.Estacionamiento = Convert.ToInt32(TxtEstacionamiento.Text.ToUpper());
                     ObjEntidad.Tamaño = Convert.ToInt32(TxtTamaño.Text.ToUpper());
+                    ObjEntidad.Descripcion = TxtDescripcion.Text;
 
                     ObjNegocio.InsertarRegistro(ObjEntidad);
 
@@ -82,9 +85,9 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MensajeError("No se pudo insertar el registro");
+                    MensajeError("No se pudo insertar el registro " + ex.Message);
                 }
             }
             if (Editar == true)
@@ -94,11 +97,12 @@ namespace CapaPresentacion
                     ObjEntidad.PropiedadID = Convert.ToInt32(TxtPropiedadID.Text.ToUpper());
                     ObjEntidad.AgenteDeInmobiliariaID = Convert.ToInt32(TxtAgente.Text.ToUpper());
                     ObjEntidad.ValorDeVenta = Convert.ToInt32(TxtValorDeVenta.Text.ToUpper());
-                    ObjEntidad.Ubicacion = TxtUbicacion.Text.ToUpper();
+                    ObjEntidad.Ubicacion = TxtUbicacion.Text;
                     ObjEntidad.Dormitorios = Convert.ToInt32(TxtDormitorios.Text.ToUpper());
                     ObjEntidad.Baños = Convert.ToInt32(TxtBaños.Text.ToUpper());
                     ObjEntidad.Estacionamiento = Convert.ToInt32(TxtEstacionamiento.Text.ToUpper());
                     ObjEntidad.Tamaño = Convert.ToInt32(TxtTamaño.Text.ToUpper());
+                    ObjEntidad.Descripcion = TxtDescripcion.Text;
 
                     ObjNegocio.EditarRegistro(ObjEntidad);
 
@@ -106,9 +110,9 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MensajeError("No se pudo modificar el registro");
+                    MensajeError("No se pudo modificar el registro" + ex.Message);
                 }
             }
         }
@@ -126,6 +130,7 @@ namespace CapaPresentacion
                 TxtBaños.Text = DGV.CurrentRow.Cells[5].Value.ToString();
                 TxtEstacionamiento.Text = DGV.CurrentRow.Cells[6].Value.ToString();
                 TxtTamaño.Text = DGV.CurrentRow.Cells[7].Value.ToString();
+                TxtDescripcion.Text = DGV.CurrentRow.Cells[8].Value.ToString();
                 TxtPropiedadID.Focus();
             }
             else

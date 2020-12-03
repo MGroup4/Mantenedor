@@ -65,7 +65,7 @@ namespace CapaPresentacion
                     ObjEntidad.Nombre = TxtNombre.Text.ToUpper();
                     ObjEntidad.UsuarioID = Convert.ToInt32(TxtUsuarioID.Text);
                     ObjEntidad.DNI = Convert.ToInt32(TxtDNI.Text);
-                    ObjEntidad.Telefono = Convert.ToInt32(TxtTelefono);
+                    ObjEntidad.Telefono = Convert.ToInt32(TxtTelefono.Text);
 
                     ObjNegocio.InsertarRegistro(ObjEntidad);
 
@@ -73,9 +73,9 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MensajeError("No se pudo insertar el registro.");
+                    MensajeError("No se pudo insertar el registro - "+ex.Message);
                 }
             }
             if(Editar == true)
@@ -83,10 +83,10 @@ namespace CapaPresentacion
                 try
                 {
                     ObjEntidad.AgenteDeInmobiliariaID = Convert.ToInt32(TxtID.Text);
-                    ObjEntidad.Nombre = TxtNombre.Text.ToUpper();
+                    ObjEntidad.Nombre = TxtNombre.Text;
                     ObjEntidad.UsuarioID = Convert.ToInt32(TxtUsuarioID.Text);
                     ObjEntidad.DNI = Convert.ToInt32(TxtDNI.Text);
-                    ObjEntidad.Telefono = Convert.ToInt32(TxtTelefono);
+                    ObjEntidad.Telefono = Convert.ToInt32(TxtTelefono.Text);
 
                     ObjNegocio.EditarRegistro(ObjEntidad);
 

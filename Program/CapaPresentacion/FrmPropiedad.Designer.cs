@@ -51,6 +51,8 @@ namespace CapaPresentacion
             this.TxtBaños = new System.Windows.Forms.TextBox();
             this.TxtDormitorios = new System.Windows.Forms.TextBox();
             this.TxtUbicacion = new System.Windows.Forms.TextBox();
+            this.label444 = new System.Windows.Forms.Label();
+            this.TxtDescripcion = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -64,7 +66,7 @@ namespace CapaPresentacion
             this.DGV.Location = new System.Drawing.Point(13, 40);
             this.DGV.Name = "DGV";
             this.DGV.RowHeadersWidth = 51;
-            this.DGV.Size = new System.Drawing.Size(587, 503);
+            this.DGV.Size = new System.Drawing.Size(587, 602);
             this.DGV.TabIndex = 0;
             // 
             // label1
@@ -81,7 +83,7 @@ namespace CapaPresentacion
             // BtnGuardarr
             // 
             this.BtnGuardarr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnGuardarr.Location = new System.Drawing.Point(606, 418);
+            this.BtnGuardarr.Location = new System.Drawing.Point(618, 533);
             this.BtnGuardarr.Name = "BtnGuardarr";
             this.BtnGuardarr.Size = new System.Drawing.Size(119, 48);
             this.BtnGuardarr.TabIndex = 2;
@@ -92,7 +94,7 @@ namespace CapaPresentacion
             // BtnEditar
             // 
             this.BtnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnEditar.Location = new System.Drawing.Point(731, 418);
+            this.BtnEditar.Location = new System.Drawing.Point(743, 533);
             this.BtnEditar.Name = "BtnEditar";
             this.BtnEditar.Size = new System.Drawing.Size(119, 48);
             this.BtnEditar.TabIndex = 3;
@@ -103,7 +105,7 @@ namespace CapaPresentacion
             // BtnEliminar
             // 
             this.BtnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnEliminar.Location = new System.Drawing.Point(606, 473);
+            this.BtnEliminar.Location = new System.Drawing.Point(618, 588);
             this.BtnEliminar.Name = "BtnEliminar";
             this.BtnEliminar.Size = new System.Drawing.Size(244, 49);
             this.BtnEliminar.TabIndex = 4;
@@ -114,6 +116,8 @@ namespace CapaPresentacion
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.TxtDescripcion);
+            this.groupBox1.Controls.Add(this.label444);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.TxtValorDeVenta);
             this.groupBox1.Controls.Add(this.label8);
@@ -133,7 +137,7 @@ namespace CapaPresentacion
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(612, 40);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(253, 372);
+            this.groupBox1.Size = new System.Drawing.Size(253, 487);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingresar";
@@ -274,12 +278,29 @@ namespace CapaPresentacion
             this.TxtUbicacion.Size = new System.Drawing.Size(238, 20);
             this.TxtUbicacion.TabIndex = 4;
             // 
+            // label444
+            // 
+            this.label444.AutoSize = true;
+            this.label444.Location = new System.Drawing.Point(10, 371);
+            this.label444.Name = "label444";
+            this.label444.Size = new System.Drawing.Size(63, 13);
+            this.label444.TabIndex = 16;
+            this.label444.Text = "Descripcion";
+            // 
+            // TxtDescripcion
+            // 
+            this.TxtDescripcion.Location = new System.Drawing.Point(6, 388);
+            this.TxtDescripcion.Name = "TxtDescripcion";
+            this.TxtDescripcion.Size = new System.Drawing.Size(236, 93);
+            this.TxtDescripcion.TabIndex = 17;
+            this.TxtDescripcion.Text = "";
+            // 
             // FrmPropiedad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(111)))), ((int)(((byte)(166)))));
-            this.ClientSize = new System.Drawing.Size(873, 557);
+            this.ClientSize = new System.Drawing.Size(873, 656);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BtnEliminar);
             this.Controls.Add(this.BtnEditar);
@@ -322,5 +343,7 @@ namespace CapaPresentacion
         private System.Windows.Forms.TextBox TxtAgente;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox TxtPropiedadID;
+        private System.Windows.Forms.RichTextBox TxtDescripcion;
+        private System.Windows.Forms.Label label444;
     }
 }

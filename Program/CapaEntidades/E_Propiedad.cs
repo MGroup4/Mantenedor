@@ -16,5 +16,6 @@ namespace CapaEntidades
         public int Baños { get; set; }
         public int Estacionamiento { get; set; }
         public int Tamaño { get; set; }
+        public string Descripcion { get; set; }
     }
 }

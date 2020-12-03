@@ -63,7 +63,7 @@ namespace CapaPresentacion
                 try
                 {
                     ObjEntidad.UsuarioID = Convert.ToInt32(TxtUsuarioID.Text);
-                    ObjEntidad.Nombre = TxtNombre.Text.ToUpper();
+                    ObjEntidad.Nombre = TxtNombre.Text;
                     ObjEntidad.Contraseña = TxtContraseña.Text;
                     ObjEntidad.Rango = Convert.ToInt32(TxtRango.Text);
                     ObjEntidad.DNI = Convert.ToInt32(TxtDNI.Text);
@@ -75,9 +75,9 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MensajeError("No se pudo insertar el registro");
+                    MensajeError("No se pudo insertar el registro " + ex.Message);
                 }
             }
             if (Editar == true)
@@ -85,7 +85,7 @@ namespace CapaPresentacion
                 try
                 {
                     ObjEntidad.UsuarioID = Convert.ToInt32(TxtUsuarioID.Text);
-                    ObjEntidad.Nombre = TxtNombre.Text.ToUpper();
+                    ObjEntidad.Nombre = TxtNombre.Text;
                     ObjEntidad.Contraseña = TxtContraseña.Text;
                     ObjEntidad.Rango = Convert.ToInt32(TxtRango.Text);
                     ObjEntidad.DNI = Convert.ToInt32(TxtDNI.Text);
@@ -97,9 +97,9 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MensajeError("No se pudo modificar el registro");
+                    MensajeError("No se pudo modificar el registro " + ex.Message);
                 }
             }
         }
@@ -111,9 +111,9 @@ namespace CapaPresentacion
                 Editar = true;
 
                 TxtUsuarioID.Text = DGV.CurrentRow.Cells[0].Value.ToString();
-                TxtNombre.Text = DGV.CurrentRow.Cells[1].Value.ToString();
-                TxtContraseña.Text = DGV.CurrentRow.Cells[2].Value.ToString();
-                TxtRango.Text = DGV.CurrentRow.Cells[3].Value.ToString();
+                TxtContraseña.Text  = DGV.CurrentRow.Cells[1].Value.ToString();
+                TxtRango.Text = DGV.CurrentRow.Cells[2].Value.ToString();
+                TxtNombre.Text = DGV.CurrentRow.Cells[3].Value.ToString();
                 TxtDNI.Text = DGV.CurrentRow.Cells[4].Value.ToString();
                 TxtTelefono.Text = DGV.CurrentRow.Cells[5].Value.ToString();
 
