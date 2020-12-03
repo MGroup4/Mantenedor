@@ -17,18 +17,22 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
+        private void buttonComprarAlquilar_Click(object sender, EventArgs e)
+        {
+            
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ActualizarDatos(object sender, FormClosedEventArgs e)
         {
-
+            MostrarRegistro();
         }
 
-        private void FormPropiedadesDispo_Load(object sender, EventArgs e)
+        private void buttonMostrarInfo_Click(object sender, EventArgs e)
         {
-                    }
+            FrmPropiedadInfo formulariom = new FrmPropiedadInfo();
+            formulariom.FormClosed += new FormClosedEventHandler(ActualizarDatos);
+            formulariom.ShowDialog();
+        }
     }
 }

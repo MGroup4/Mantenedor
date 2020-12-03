@@ -57,6 +57,9 @@ namespace CapaPresentacion
             // 
             // DGV
             // 
+            this.DGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV.Location = new System.Drawing.Point(13, 40);
             this.DGV.Name = "DGV";
@@ -75,6 +78,7 @@ namespace CapaPresentacion
             // 
             // BtnGuardarr
             // 
+            this.BtnGuardarr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnGuardarr.Location = new System.Drawing.Point(606, 418);
             this.BtnGuardarr.Name = "BtnGuardarr";
             this.BtnGuardarr.Size = new System.Drawing.Size(119, 48);
@@ -85,6 +89,7 @@ namespace CapaPresentacion
             // 
             // BtnEditar
             // 
+            this.BtnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnEditar.Location = new System.Drawing.Point(731, 418);
             this.BtnEditar.Name = "BtnEditar";
             this.BtnEditar.Size = new System.Drawing.Size(119, 48);
@@ -95,6 +100,7 @@ namespace CapaPresentacion
             // 
             // BtnEliminar
             // 
+            this.BtnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnEliminar.Location = new System.Drawing.Point(606, 473);
             this.BtnEliminar.Name = "BtnEliminar";
             this.BtnEliminar.Size = new System.Drawing.Size(244, 49);
@@ -105,6 +111,7 @@ namespace CapaPresentacion
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.TxtValorDeVenta);
             this.groupBox1.Controls.Add(this.label8);

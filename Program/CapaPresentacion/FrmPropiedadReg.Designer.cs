@@ -79,6 +79,7 @@ namespace CapaPresentacion
             this.buttonMostrarInfo.TabIndex = 3;
             this.buttonMostrarInfo.Text = "Mostrar Información";
             this.buttonMostrarInfo.UseVisualStyleBackColor = true;
+            this.buttonMostrarInfo.Click += new System.EventHandler(this.buttonMostrarInfo_Click);
             // 
             // buttonMostrarVenta
             // 
