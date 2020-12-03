@@ -10,7 +10,7 @@ namespace CapaEntidades
     {
         public int UsuarioID { get; set; }
         public string Contraseña { get; set; }
-        public string Rango { get; set; }
+        public int Rango { get; set; }
         public string Nombre { get; set; }
         public int DNI { get; set; }
         public int Telefono { get; set; }

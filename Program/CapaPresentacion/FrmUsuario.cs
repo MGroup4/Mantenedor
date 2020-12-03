@@ -65,7 +65,7 @@ namespace CapaPresentacion
                     ObjEntidad.UsuarioID = Convert.ToInt32(TxtUsuarioID.Text);
                     ObjEntidad.Nombre = TxtNombre.Text.ToUpper();
                     ObjEntidad.Contraseña = TxtContraseña.Text;
-                    ObjEntidad.Rango = TxtRango.Text.ToUpper();
+                    ObjEntidad.Rango = Convert.ToInt32(TxtRango.Text);
                     ObjEntidad.DNI = Convert.ToInt32(TxtDNI.Text);
                     ObjEntidad.Telefono = Convert.ToInt32(TxtTelefono.Text);
 
@@ -75,7 +75,7 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
                     MensajeError("No se pudo insertar el registro");
                 }
@@ -87,7 +87,7 @@ namespace CapaPresentacion
                     ObjEntidad.UsuarioID = Convert.ToInt32(TxtUsuarioID.Text);
                     ObjEntidad.Nombre = TxtNombre.Text.ToUpper();
                     ObjEntidad.Contraseña = TxtContraseña.Text;
-                    ObjEntidad.Rango = TxtRango.Text.ToUpper();
+                    ObjEntidad.Rango = Convert.ToInt32(TxtRango.Text);
                     ObjEntidad.DNI = Convert.ToInt32(TxtDNI.Text);
                     ObjEntidad.Telefono = Convert.ToInt32(TxtTelefono.Text);
 
@@ -97,7 +97,7 @@ namespace CapaPresentacion
                     MostrarRegistro();
                     LimpiarCajas();
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
                     MensajeError("No se pudo modificar el registro");
                 }
