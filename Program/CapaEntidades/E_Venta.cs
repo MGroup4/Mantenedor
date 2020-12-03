@@ -12,5 +12,6 @@ namespace CapaEntidades
         public int AgenteDeInmobiliariaID { get; set; }
         public DateTime Fecha { get; set; }
         public int Precio { get; set; }
+        public int DNICliente { get; set; }
     }
 }

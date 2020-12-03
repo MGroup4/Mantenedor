@@ -30,62 +30,63 @@ namespace CapaPresentacion
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVentaAdd));
-            this.buttonRealizarVenta = new System.Windows.Forms.Button();
+            this.BtnVenta = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBoxVentaTelefono = new System.Windows.Forms.TextBox();
+            this.TxtTelefonoV = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBoxVentaNombre = new System.Windows.Forms.TextBox();
+            this.TxtNombreV = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBoxVentaDNI = new System.Windows.Forms.TextBox();
+            this.TxtDNIV = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBoxVentaPrecio = new System.Windows.Forms.TextBox();
+            this.TxtPrecioV = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.buttonRealizarAlquiler = new System.Windows.Forms.Button();
+            this.DTPFechaV = new System.Windows.Forms.DateTimePicker();
+            this.BtnAlquiler = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.buttonCalculo = new System.Windows.Forms.Button();
-            this.textBoxAlquilerTelefono = new System.Windows.Forms.TextBox();
+            this.BtnCalcular = new System.Windows.Forms.Button();
+            this.TxtTelefonoA = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.dtpAlquilerFin = new System.Windows.Forms.DateTimePicker();
-            this.dtpAlquilerInicio = new System.Windows.Forms.DateTimePicker();
-            this.textBoxAlquilerNombre = new System.Windows.Forms.TextBox();
+            this.DtpFechaAF = new System.Windows.Forms.DateTimePicker();
+            this.DtpFechaAI = new System.Windows.Forms.DateTimePicker();
+            this.TxtNombreA = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBoxAlquilerDNI = new System.Windows.Forms.TextBox();
-            this.textBoxPrecioPorCuotas = new System.Windows.Forms.TextBox();
-            this.textBoxCuotas = new System.Windows.Forms.TextBox();
-            this.textBoxAlquilerPrecio = new System.Windows.Forms.TextBox();
+            this.TxtDNIA = new System.Windows.Forms.TextBox();
+            this.TxtPrecioCuotas = new System.Windows.Forms.TextBox();
+            this.TxtCuotas = new System.Windows.Forms.TextBox();
+            this.TxtPrecioA = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // buttonRealizarVenta
+            // BtnVenta
             // 
-            this.buttonRealizarVenta.Location = new System.Drawing.Point(230, 557);
-            this.buttonRealizarVenta.Name = "buttonRealizarVenta";
-            this.buttonRealizarVenta.Size = new System.Drawing.Size(189, 59);
-            this.buttonRealizarVenta.TabIndex = 0;
-            this.buttonRealizarVenta.Text = "Realizar Venta";
-            this.buttonRealizarVenta.UseVisualStyleBackColor = true;
+            this.BtnVenta.Location = new System.Drawing.Point(230, 557);
+            this.BtnVenta.Name = "BtnVenta";
+            this.BtnVenta.Size = new System.Drawing.Size(189, 59);
+            this.BtnVenta.TabIndex = 0;
+            this.BtnVenta.Text = "Realizar Venta";
+            this.BtnVenta.UseVisualStyleBackColor = true;
+            this.BtnVenta.Click += new System.EventHandler(this.BtnVenta_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBoxVentaTelefono);
+            this.groupBox1.Controls.Add(this.TxtTelefonoV);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBoxVentaNombre);
+            this.groupBox1.Controls.Add(this.TxtNombreV);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBoxVentaDNI);
+            this.groupBox1.Controls.Add(this.TxtDNIV);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBoxVentaPrecio);
+            this.groupBox1.Controls.Add(this.TxtPrecioV);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.DTPFechaV);
             this.groupBox1.Location = new System.Drawing.Point(13, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(419, 517);
@@ -93,12 +94,12 @@ namespace CapaPresentacion
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Realizar Venta";
             // 
-            // textBoxVentaTelefono
+            // TxtTelefonoV
             // 
-            this.textBoxVentaTelefono.Location = new System.Drawing.Point(104, 188);
-            this.textBoxVentaTelefono.Name = "textBoxVentaTelefono";
-            this.textBoxVentaTelefono.Size = new System.Drawing.Size(284, 20);
-            this.textBoxVentaTelefono.TabIndex = 4;
+            this.TxtTelefonoV.Location = new System.Drawing.Point(104, 188);
+            this.TxtTelefonoV.Name = "TxtTelefonoV";
+            this.TxtTelefonoV.Size = new System.Drawing.Size(284, 20);
+            this.TxtTelefonoV.TabIndex = 4;
             // 
             // label5
             // 
@@ -109,12 +110,12 @@ namespace CapaPresentacion
             this.label5.TabIndex = 2;
             this.label5.Text = "Telefono Cliente";
             // 
-            // textBoxVentaNombre
+            // TxtNombreV
             // 
-            this.textBoxVentaNombre.Location = new System.Drawing.Point(104, 146);
-            this.textBoxVentaNombre.Name = "textBoxVentaNombre";
-            this.textBoxVentaNombre.Size = new System.Drawing.Size(284, 20);
-            this.textBoxVentaNombre.TabIndex = 3;
+            this.TxtNombreV.Location = new System.Drawing.Point(104, 146);
+            this.TxtNombreV.Name = "TxtNombreV";
+            this.TxtNombreV.Size = new System.Drawing.Size(284, 20);
+            this.TxtNombreV.TabIndex = 3;
             // 
             // label4
             // 
@@ -125,12 +126,12 @@ namespace CapaPresentacion
             this.label4.TabIndex = 2;
             this.label4.Text = "Nombre Cliente";
             // 
-            // textBoxVentaDNI
+            // TxtDNIV
             // 
-            this.textBoxVentaDNI.Location = new System.Drawing.Point(277, 103);
-            this.textBoxVentaDNI.Name = "textBoxVentaDNI";
-            this.textBoxVentaDNI.Size = new System.Drawing.Size(111, 20);
-            this.textBoxVentaDNI.TabIndex = 2;
+            this.TxtDNIV.Location = new System.Drawing.Point(277, 103);
+            this.TxtDNIV.Name = "TxtDNIV";
+            this.TxtDNIV.Size = new System.Drawing.Size(111, 20);
+            this.TxtDNIV.TabIndex = 2;
             // 
             // label3
             // 
@@ -141,12 +142,12 @@ namespace CapaPresentacion
             this.label3.TabIndex = 2;
             this.label3.Text = "DNI Cliente";
             // 
-            // textBoxVentaPrecio
+            // TxtPrecioV
             // 
-            this.textBoxVentaPrecio.Location = new System.Drawing.Point(62, 103);
-            this.textBoxVentaPrecio.Name = "textBoxVentaPrecio";
-            this.textBoxVentaPrecio.Size = new System.Drawing.Size(142, 20);
-            this.textBoxVentaPrecio.TabIndex = 1;
+            this.TxtPrecioV.Location = new System.Drawing.Point(62, 103);
+            this.TxtPrecioV.Name = "TxtPrecioV";
+            this.TxtPrecioV.Size = new System.Drawing.Size(142, 20);
+            this.TxtPrecioV.TabIndex = 1;
             // 
             // label2
             // 
@@ -166,40 +167,41 @@ namespace CapaPresentacion
             this.label1.TabIndex = 1;
             this.label1.Text = "Fecha de Venta";
             // 
-            // dateTimePicker1
+            // DTPFechaV
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(104, 36);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 0;
+            this.DTPFechaV.Location = new System.Drawing.Point(104, 36);
+            this.DTPFechaV.Name = "DTPFechaV";
+            this.DTPFechaV.Size = new System.Drawing.Size(200, 20);
+            this.DTPFechaV.TabIndex = 0;
             // 
-            // buttonRealizarAlquiler
+            // BtnAlquiler
             // 
-            this.buttonRealizarAlquiler.Location = new System.Drawing.Point(460, 557);
-            this.buttonRealizarAlquiler.Name = "buttonRealizarAlquiler";
-            this.buttonRealizarAlquiler.Size = new System.Drawing.Size(171, 59);
-            this.buttonRealizarAlquiler.TabIndex = 2;
-            this.buttonRealizarAlquiler.Text = "Realizar Alquiler";
-            this.buttonRealizarAlquiler.UseVisualStyleBackColor = true;
+            this.BtnAlquiler.Location = new System.Drawing.Point(460, 557);
+            this.BtnAlquiler.Name = "BtnAlquiler";
+            this.BtnAlquiler.Size = new System.Drawing.Size(171, 59);
+            this.BtnAlquiler.TabIndex = 2;
+            this.BtnAlquiler.Text = "Realizar Alquiler";
+            this.BtnAlquiler.UseVisualStyleBackColor = true;
+            this.BtnAlquiler.Click += new System.EventHandler(this.BtnAlquiler_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.buttonCalculo);
-            this.groupBox2.Controls.Add(this.textBoxAlquilerTelefono);
+            this.groupBox2.Controls.Add(this.BtnCalcular);
+            this.groupBox2.Controls.Add(this.TxtTelefonoA);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.dtpAlquilerFin);
-            this.groupBox2.Controls.Add(this.dtpAlquilerInicio);
-            this.groupBox2.Controls.Add(this.textBoxAlquilerNombre);
+            this.groupBox2.Controls.Add(this.DtpFechaAF);
+            this.groupBox2.Controls.Add(this.DtpFechaAI);
+            this.groupBox2.Controls.Add(this.TxtNombreA);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBoxAlquilerDNI);
-            this.groupBox2.Controls.Add(this.textBoxPrecioPorCuotas);
-            this.groupBox2.Controls.Add(this.textBoxCuotas);
-            this.groupBox2.Controls.Add(this.textBoxAlquilerPrecio);
+            this.groupBox2.Controls.Add(this.TxtDNIA);
+            this.groupBox2.Controls.Add(this.TxtPrecioCuotas);
+            this.groupBox2.Controls.Add(this.TxtCuotas);
+            this.groupBox2.Controls.Add(this.TxtPrecioA);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Location = new System.Drawing.Point(449, 13);
             this.groupBox2.Name = "groupBox2";
@@ -208,21 +210,22 @@ namespace CapaPresentacion
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Realizar Alquiler";
             // 
-            // buttonCalculo
+            // BtnCalcular
             // 
-            this.buttonCalculo.Location = new System.Drawing.Point(171, 323);
-            this.buttonCalculo.Name = "buttonCalculo";
-            this.buttonCalculo.Size = new System.Drawing.Size(142, 59);
-            this.buttonCalculo.TabIndex = 4;
-            this.buttonCalculo.Text = "Calcular precio por Cuotas";
-            this.buttonCalculo.UseVisualStyleBackColor = true;
+            this.BtnCalcular.Location = new System.Drawing.Point(171, 323);
+            this.BtnCalcular.Name = "BtnCalcular";
+            this.BtnCalcular.Size = new System.Drawing.Size(142, 59);
+            this.BtnCalcular.TabIndex = 4;
+            this.BtnCalcular.Text = "Calcular precio por Cuotas";
+            this.BtnCalcular.UseVisualStyleBackColor = true;
+            this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcular_Click);
             // 
-            // textBoxAlquilerTelefono
+            // TxtTelefonoA
             // 
-            this.textBoxAlquilerTelefono.Location = new System.Drawing.Point(113, 230);
-            this.textBoxAlquilerTelefono.Name = "textBoxAlquilerTelefono";
-            this.textBoxAlquilerTelefono.Size = new System.Drawing.Size(284, 20);
-            this.textBoxAlquilerTelefono.TabIndex = 8;
+            this.TxtTelefonoA.Location = new System.Drawing.Point(113, 230);
+            this.TxtTelefonoA.Name = "TxtTelefonoA";
+            this.TxtTelefonoA.Size = new System.Drawing.Size(284, 20);
+            this.TxtTelefonoA.TabIndex = 8;
             // 
             // label10
             // 
@@ -233,26 +236,26 @@ namespace CapaPresentacion
             this.label10.TabIndex = 2;
             this.label10.Text = "Telefono Cliente";
             // 
-            // dtpAlquilerFin
+            // DtpFechaAF
             // 
-            this.dtpAlquilerFin.Location = new System.Drawing.Point(150, 78);
-            this.dtpAlquilerFin.Name = "dtpAlquilerFin";
-            this.dtpAlquilerFin.Size = new System.Drawing.Size(200, 20);
-            this.dtpAlquilerFin.TabIndex = 0;
+            this.DtpFechaAF.Location = new System.Drawing.Point(150, 78);
+            this.DtpFechaAF.Name = "DtpFechaAF";
+            this.DtpFechaAF.Size = new System.Drawing.Size(200, 20);
+            this.DtpFechaAF.TabIndex = 0;
             // 
-            // dtpAlquilerInicio
+            // DtpFechaAI
             // 
-            this.dtpAlquilerInicio.Location = new System.Drawing.Point(150, 35);
-            this.dtpAlquilerInicio.Name = "dtpAlquilerInicio";
-            this.dtpAlquilerInicio.Size = new System.Drawing.Size(200, 20);
-            this.dtpAlquilerInicio.TabIndex = 0;
+            this.DtpFechaAI.Location = new System.Drawing.Point(150, 35);
+            this.DtpFechaAI.Name = "DtpFechaAI";
+            this.DtpFechaAI.Size = new System.Drawing.Size(200, 20);
+            this.DtpFechaAI.TabIndex = 0;
             // 
-            // textBoxAlquilerNombre
+            // TxtNombreA
             // 
-            this.textBoxAlquilerNombre.Location = new System.Drawing.Point(113, 188);
-            this.textBoxAlquilerNombre.Name = "textBoxAlquilerNombre";
-            this.textBoxAlquilerNombre.Size = new System.Drawing.Size(284, 20);
-            this.textBoxAlquilerNombre.TabIndex = 7;
+            this.TxtNombreA.Location = new System.Drawing.Point(113, 188);
+            this.TxtNombreA.Name = "TxtNombreA";
+            this.TxtNombreA.Size = new System.Drawing.Size(284, 20);
+            this.TxtNombreA.TabIndex = 7;
             // 
             // label11
             // 
@@ -308,34 +311,33 @@ namespace CapaPresentacion
             this.label7.TabIndex = 2;
             this.label7.Text = "Precio";
             // 
-            // textBoxAlquilerDNI
+            // TxtDNIA
             // 
-            this.textBoxAlquilerDNI.Location = new System.Drawing.Point(286, 145);
-            this.textBoxAlquilerDNI.Name = "textBoxAlquilerDNI";
-            this.textBoxAlquilerDNI.Size = new System.Drawing.Size(111, 20);
-            this.textBoxAlquilerDNI.TabIndex = 6;
+            this.TxtDNIA.Location = new System.Drawing.Point(286, 145);
+            this.TxtDNIA.Name = "TxtDNIA";
+            this.TxtDNIA.Size = new System.Drawing.Size(111, 20);
+            this.TxtDNIA.TabIndex = 6;
             // 
-            // textBoxPrecioPorCuotas
+            // TxtPrecioCuotas
             // 
-            this.textBoxPrecioPorCuotas.Location = new System.Drawing.Point(123, 411);
-            this.textBoxPrecioPorCuotas.Name = "textBoxPrecioPorCuotas";
-            this.textBoxPrecioPorCuotas.Size = new System.Drawing.Size(274, 20);
-            this.textBoxPrecioPorCuotas.TabIndex = 10;
+            this.TxtPrecioCuotas.Location = new System.Drawing.Point(123, 411);
+            this.TxtPrecioCuotas.Name = "TxtPrecioCuotas";
+            this.TxtPrecioCuotas.Size = new System.Drawing.Size(274, 20);
+            this.TxtPrecioCuotas.TabIndex = 10;
             // 
-            // textBoxCuotas
+            // TxtCuotas
             // 
-            this.textBoxCuotas.Location = new System.Drawing.Point(113, 272);
-            this.textBoxCuotas.Name = "textBoxCuotas";
-            this.textBoxCuotas.Size = new System.Drawing.Size(142, 20);
-            this.textBoxCuotas.TabIndex = 9;
-            this.textBoxCuotas.TextChanged += new System.EventHandler(this.textBoxCuotas_TextChanged);
+            this.TxtCuotas.Location = new System.Drawing.Point(113, 272);
+            this.TxtCuotas.Name = "TxtCuotas";
+            this.TxtCuotas.Size = new System.Drawing.Size(142, 20);
+            this.TxtCuotas.TabIndex = 9;
             // 
-            // textBoxAlquilerPrecio
+            // TxtPrecioA
             // 
-            this.textBoxAlquilerPrecio.Location = new System.Drawing.Point(71, 145);
-            this.textBoxAlquilerPrecio.Name = "textBoxAlquilerPrecio";
-            this.textBoxAlquilerPrecio.Size = new System.Drawing.Size(142, 20);
-            this.textBoxAlquilerPrecio.TabIndex = 5;
+            this.TxtPrecioA.Location = new System.Drawing.Point(71, 145);
+            this.TxtPrecioA.Name = "TxtPrecioA";
+            this.TxtPrecioA.Size = new System.Drawing.Size(142, 20);
+            this.TxtPrecioA.TabIndex = 5;
             // 
             // label8
             // 
@@ -352,9 +354,9 @@ namespace CapaPresentacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(885, 628);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.buttonRealizarAlquiler);
+            this.Controls.Add(this.BtnAlquiler);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.buttonRealizarVenta);
+            this.Controls.Add(this.BtnVenta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmVentaAdd";
             this.Text = "Comfy Houser - Venta/Aqluiler";
@@ -368,36 +370,36 @@ namespace CapaPresentacion
 
         #endregion
 
-        private System.Windows.Forms.Button buttonRealizarVenta;
+        private System.Windows.Forms.Button BtnVenta;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBoxVentaTelefono;
+        private System.Windows.Forms.TextBox TxtTelefonoV;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBoxVentaNombre;
+        private System.Windows.Forms.TextBox TxtNombreV;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBoxVentaDNI;
+        private System.Windows.Forms.TextBox TxtDNIV;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxVentaPrecio;
+        private System.Windows.Forms.TextBox TxtPrecioV;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button buttonRealizarAlquiler;
+        private System.Windows.Forms.DateTimePicker DTPFechaV;
+        private System.Windows.Forms.Button BtnAlquiler;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button buttonCalculo;
-        private System.Windows.Forms.TextBox textBoxAlquilerTelefono;
+        private System.Windows.Forms.Button BtnCalcular;
+        private System.Windows.Forms.TextBox TxtTelefonoA;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DateTimePicker dtpAlquilerFin;
-        private System.Windows.Forms.DateTimePicker dtpAlquilerInicio;
-        private System.Windows.Forms.TextBox textBoxAlquilerNombre;
+        private System.Windows.Forms.DateTimePicker DtpFechaAF;
+        private System.Windows.Forms.DateTimePicker DtpFechaAI;
+        private System.Windows.Forms.TextBox TxtNombreA;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBoxAlquilerDNI;
-        private System.Windows.Forms.TextBox textBoxPrecioPorCuotas;
-        private System.Windows.Forms.TextBox textBoxCuotas;
-        private System.Windows.Forms.TextBox textBoxAlquilerPrecio;
+        private System.Windows.Forms.TextBox TxtDNIA;
+        private System.Windows.Forms.TextBox TxtPrecioCuotas;
+        private System.Windows.Forms.TextBox TxtCuotas;
+        private System.Windows.Forms.TextBox TxtPrecioA;
         private System.Windows.Forms.Label label8;
     }
 }

@@ -226,6 +226,7 @@
             this.TxtContraseña.ForeColor = System.Drawing.SystemColors.Window;
             this.TxtContraseña.Location = new System.Drawing.Point(725, 135);
             this.TxtContraseña.Name = "TxtContraseña";
+            this.TxtContraseña.PasswordChar = '*';
             this.TxtContraseña.Size = new System.Drawing.Size(200, 27);
             this.TxtContraseña.TabIndex = 3;
             // 

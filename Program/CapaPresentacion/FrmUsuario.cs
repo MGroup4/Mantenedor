@@ -36,12 +36,12 @@ namespace CapaPresentacion
 
         private void MensajeConfirmacion(string Mensaje)
         {
-            MessageBox.Show(Mensaje, "INMOBILIRIA X", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Mensaje, "Comfy House", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void MensajeError(string Mensaje)
         {
-            MessageBox.Show(Mensaje, "INMOBILIRIA X", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(Mensaje, "Comfy House", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         public void LimpiarCajas()
