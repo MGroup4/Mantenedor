@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocios;
+using CapaNegocio;
 
 namespace CapaPresentacion
 {
@@ -21,6 +22,11 @@ namespace CapaPresentacion
         public void MostrarRegistro()
         {
             DGV.DataSource = N_Venta.MostrarRegistro();
+        }
+
+        public void MostrarRegistroAlquiler()
+        {
+            DGV.DataSource = N_Alquiler.MostrarRegistro();
         }
 
         private void ActualizarDatos(object sender, FormClosedEventArgs e)
@@ -51,6 +57,11 @@ namespace CapaPresentacion
         private void buttonMostrarVenta_Click(object sender, EventArgs e)
         {
             MostrarRegistro();
+        }
+
+        private void buttonMostrarAlquiler_Click(object sender, EventArgs e)
+        {
+            MostrarRegistroAlquiler();
         }
     }
 }

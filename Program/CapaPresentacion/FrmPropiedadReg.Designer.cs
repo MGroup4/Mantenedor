@@ -101,6 +101,7 @@ namespace CapaPresentacion
             this.buttonMostrarAlquiler.TabIndex = 5;
             this.buttonMostrarAlquiler.Text = "Mostrar solo Alquiler";
             this.buttonMostrarAlquiler.UseVisualStyleBackColor = true;
+            this.buttonMostrarAlquiler.Click += new System.EventHandler(this.buttonMostrarAlquiler_Click);
             // 
             // FormPropiedadesDispo
             // 
