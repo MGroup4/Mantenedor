@@ -97,5 +97,10 @@ namespace CapaPresentacion
             double result = Convert.ToDouble(TxtPrecioA.Text) / Convert.ToDouble(TxtCuotas.Text);
             TxtPrecioCuotas.Text = result.ToString();
         }
+
+        private void TxtNombreA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -256,6 +256,7 @@ namespace CapaPresentacion
             this.TxtNombreA.Name = "TxtNombreA";
             this.TxtNombreA.Size = new System.Drawing.Size(284, 20);
             this.TxtNombreA.TabIndex = 7;
+            this.TxtNombreA.TextChanged += new System.EventHandler(this.TxtNombreA_TextChanged);
             // 
             // label11
             // 
