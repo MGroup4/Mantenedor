@@ -30,3 +30,15 @@ D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmUsuario.resources
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormAgentes.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormMantenedorPropiedades.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormInfoPropiedadDispo.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormPropiedadesDispo.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormVentas.resources

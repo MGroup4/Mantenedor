@@ -51,6 +51,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormMantenedorPropiedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMantenedorPropiedades.Designer.cs">
+      <DependentUpon>FormMantenedorPropiedades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgentes.Designer.cs">
+      <DependentUpon>FormAgentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInfoPropiedadDispo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInfoPropiedadDispo.Designer.cs">
+      <DependentUpon>FormInfoPropiedadDispo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPropiedadesDispo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropiedadesDispo.Designer.cs">
+      <DependentUpon>FormPropiedadesDispo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVentas.Designer.cs">
+      <DependentUpon>FormVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +89,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAgentes.resx">
+      <DependentUpon>FormAgentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMantenedorPropiedades.resx">
+      <DependentUpon>FormMantenedorPropiedades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInfoPropiedadDispo.resx">
+      <DependentUpon>FormInfoPropiedadDispo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropiedadesDispo.resx">
+      <DependentUpon>FormPropiedadesDispo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVentas.resx">
+      <DependentUpon>FormVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuario.resx">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
     </EmbeddedResource>

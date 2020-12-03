@@ -9,7 +9,7 @@ using CapaEntidades;
 
 namespace CapaNegocios
 {
-    class N_AgenteInmobiliaria
+    public class N_AgenteInmobiliaria
     {
         readonly D_AgenteDeInmobiliaria ObjAgente = new D_AgenteDeInmobiliaria();
 
