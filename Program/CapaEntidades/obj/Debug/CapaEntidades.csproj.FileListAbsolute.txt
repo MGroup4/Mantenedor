@@ -1,0 +1,6 @@
+C:\Users\javie\Desktop\INMOBILIARIA\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\javie\Desktop\INMOBILIARIA\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\javie\Desktop\INMOBILIARIA\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\javie\Desktop\INMOBILIARIA\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\INMOBILIARIA\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\javie\Desktop\INMOBILIARIA\CapaEntidades\obj\Debug\CapaEntidades.pdb
