@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaNegocios;
 
 namespace CapaPresentacion
 {
@@ -17,15 +18,22 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-
-        private void buttonComprarAlquilar_Click(object sender, EventArgs e)
+        public void MostrarRegistro()
         {
-            
+            DGV.DataSource = N_Venta.MostrarRegistro();
         }
 
         private void ActualizarDatos(object sender, FormClosedEventArgs e)
         {
             MostrarRegistro();
+        }
+
+
+        private void buttonComprarAlquilar_Click(object sender, EventArgs e)
+        {
+            FrmVentaAdd formulariom = new FrmVentaAdd();
+            formulariom.FormClosed += new FormClosedEventHandler(ActualizarDatos);
+            formulariom.ShowDialog();
         }
 
         private void buttonMostrarInfo_Click(object sender, EventArgs e)

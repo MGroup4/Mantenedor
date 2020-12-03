@@ -53,3 +53,4 @@ D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProp
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVentaAdd.resources
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgente.resources
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPropiedad.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPrincipal.resources

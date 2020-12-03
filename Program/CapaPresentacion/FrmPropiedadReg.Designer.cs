@@ -29,25 +29,25 @@ namespace CapaPresentacion
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvPropiedadesDispo = new System.Windows.Forms.DataGridView();
+            this.DGV = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonComprarAlquilar = new System.Windows.Forms.Button();
             this.buttonMostrarInfo = new System.Windows.Forms.Button();
             this.buttonMostrarVenta = new System.Windows.Forms.Button();
             this.buttonMostrarAlquiler = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPropiedadesDispo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvPropiedadesDispo
+            // DGV
             // 
-            this.dgvPropiedadesDispo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.DGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvPropiedadesDispo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPropiedadesDispo.Location = new System.Drawing.Point(13, 61);
-            this.dgvPropiedadesDispo.Name = "dgvPropiedadesDispo";
-            this.dgvPropiedadesDispo.Size = new System.Drawing.Size(632, 500);
-            this.dgvPropiedadesDispo.TabIndex = 0;
+            this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV.Location = new System.Drawing.Point(13, 61);
+            this.DGV.Name = "DGV";
+            this.DGV.Size = new System.Drawing.Size(632, 500);
+            this.DGV.TabIndex = 0;
             // 
             // label1
             // 
@@ -112,12 +112,12 @@ namespace CapaPresentacion
             this.Controls.Add(this.buttonMostrarInfo);
             this.Controls.Add(this.buttonComprarAlquilar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dgvPropiedadesDispo);
+            this.Controls.Add(this.DGV);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormPropiedadesDispo";
             this.Text = "FormPropiedades";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPropiedadesDispo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,7 +125,7 @@ namespace CapaPresentacion
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvPropiedadesDispo;
+        private System.Windows.Forms.DataGridView DGV;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonComprarAlquilar;
         private System.Windows.Forms.Button buttonMostrarInfo;

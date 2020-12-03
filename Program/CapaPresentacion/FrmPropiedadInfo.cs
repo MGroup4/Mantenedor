@@ -16,7 +16,6 @@ namespace CapaPresentacion
     public partial class FrmPropiedadInfo : Form
     {
 
-        private bool Editar = false;
         readonly E_Propiedad ObjEntidad = new E_Propiedad();
         readonly N_Propiedad ObjNegocio = new N_Propiedad();
 
