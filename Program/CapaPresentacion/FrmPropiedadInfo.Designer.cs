@@ -1,7 +1,7 @@
 ﻿
 namespace CapaPresentacion
 {
-    partial class FormInfoPropiedadDispo
+    partial class FrmPropiedadInfo
     {
         /// <summary>
         /// Required designer variable.

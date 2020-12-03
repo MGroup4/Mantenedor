@@ -11,16 +11,13 @@ using CapaNegocios;
 
 namespace CapaPresentacion
 {
-    public partial class FormInfoPropiedadDispo : Form
+    public partial class FrmPropiedadInfo : Form
     {
 
-        readonly N_Propiedad ObjNegocio = new N_Propiedad();
-
-        public FormInfoPropiedadDispo()
+        public FrmPropiedadInfo()
         {
             InitializeComponent();
         }
 
-        public void 
     }
 }

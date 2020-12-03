@@ -12,14 +12,14 @@ using CapaNegocios;
 
 namespace CapaPresentacion
 {
-    public partial class FormAgentes : Form
+    public partial class FrmAgente : Form
     {
 
         private bool Editar = false;
         readonly E_AgenteDeInmobiliaria ObjEntidad = new E_AgenteDeInmobiliaria();
         readonly N_AgenteInmobiliaria ObjNegocio = new N_AgenteInmobiliaria();
 
-        public FormAgentes()
+        public FrmAgente()
         {
             InitializeComponent();
         }

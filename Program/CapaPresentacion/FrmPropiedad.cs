@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class FormVentas : Form
+    public partial class FrmPropiedad : Form
     {
-        public FormVentas()
+        public FrmPropiedad()
         {
             InitializeComponent();
         }
 
-        private void textBoxCuotas_TextChanged(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

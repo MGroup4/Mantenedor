@@ -37,11 +37,7 @@ C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresent
 C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
 C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\reusc\Desktop\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
-D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormAgentes.resources
-D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormMantenedorPropiedades.resources
-D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormInfoPropiedadDispo.resources
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormPropiedadesDispo.resources
-D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FormVentas.resources
 D:\GitHub\Mantenedor\Program\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
 D:\GitHub\Mantenedor\Program\CapaPresentacion\bin\Debug\CapaPresentacion.exe
 D:\GitHub\Mantenedor\Program\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
@@ -53,3 +49,7 @@ D:\GitHub\Mantenedor\Program\CapaPresentacion\bin\Debug\CapaEntidades.pdb
 D:\GitHub\Mantenedor\Program\CapaPresentacion\bin\Debug\CapaNegocio.pdb
 D:\GitHub\Mantenedor\Program\CapaPresentacion\bin\Debug\CapaDatos.pdb
 D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPropiedadInfo.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVentaAdd.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgente.resources
+D:\GitHub\Mantenedor\Program\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPropiedad.resources

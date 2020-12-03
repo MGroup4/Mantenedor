@@ -51,35 +51,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormMantenedorPropiedades.cs">
+    <Compile Include="FrmPropiedad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMantenedorPropiedades.Designer.cs">
-      <DependentUpon>FormMantenedorPropiedades.cs</DependentUpon>
+    <Compile Include="FrmPropiedad.Designer.cs">
+      <DependentUpon>FrmPropiedad.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAgentes.cs">
+    <Compile Include="FrmAgente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAgentes.Designer.cs">
-      <DependentUpon>FormAgentes.cs</DependentUpon>
+    <Compile Include="FrmAgente.Designer.cs">
+      <DependentUpon>FrmAgente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormInfoPropiedadDispo.cs">
+    <Compile Include="FrmPropiedadInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormInfoPropiedadDispo.Designer.cs">
-      <DependentUpon>FormInfoPropiedadDispo.cs</DependentUpon>
+    <Compile Include="FrmPropiedadInfo.Designer.cs">
+      <DependentUpon>FrmPropiedadInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPropiedadesDispo.cs">
+    <Compile Include="FrmPropiedadReg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPropiedadesDispo.Designer.cs">
-      <DependentUpon>FormPropiedadesDispo.cs</DependentUpon>
+    <Compile Include="FrmPropiedadReg.Designer.cs">
+      <DependentUpon>FrmPropiedadReg.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormVentas.cs">
+    <Compile Include="FrmVentaAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormVentas.Designer.cs">
-      <DependentUpon>FormVentas.cs</DependentUpon>
+    <Compile Include="FrmVentaAdd.Designer.cs">
+      <DependentUpon>FrmVentaAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmUsuario.cs">
       <SubType>Form</SubType>
@@ -89,20 +89,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAgentes.resx">
-      <DependentUpon>FormAgentes.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAgente.resx">
+      <DependentUpon>FrmAgente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMantenedorPropiedades.resx">
-      <DependentUpon>FormMantenedorPropiedades.cs</DependentUpon>
+    <EmbeddedResource Include="FrmPropiedad.resx">
+      <DependentUpon>FrmPropiedad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormInfoPropiedadDispo.resx">
-      <DependentUpon>FormInfoPropiedadDispo.cs</DependentUpon>
+    <EmbeddedResource Include="FrmPropiedadInfo.resx">
+      <DependentUpon>FrmPropiedadInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPropiedadesDispo.resx">
-      <DependentUpon>FormPropiedadesDispo.cs</DependentUpon>
+    <EmbeddedResource Include="FrmPropiedadReg.resx">
+      <DependentUpon>FrmPropiedadReg.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormVentas.resx">
-      <DependentUpon>FormVentas.cs</DependentUpon>
+    <EmbeddedResource Include="FrmVentaAdd.resx">
+      <DependentUpon>FrmVentaAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuario.resx">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
@@ -135,7 +135,7 @@
       <Name>CapaEntidades</Name>
     </ProjectReference>
     <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
-      <Project>{3cf8c54a-7f4a-48dd-bdca-d60fb05527aa}</Project>
+      <Project>{f54502fd-a3ce-4dca-be7b-5f3b8a0f7802}</Project>
       <Name>CapaNegocios</Name>
     </ProjectReference>
   </ItemGroup>

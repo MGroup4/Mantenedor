@@ -1,7 +1,7 @@
 ﻿
 namespace CapaPresentacion
 {
-    partial class FormAgentes
+    partial class FrmAgente
     {
         /// <summary>
         /// Required designer variable.
