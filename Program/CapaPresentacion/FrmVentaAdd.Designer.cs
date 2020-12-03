@@ -32,10 +32,6 @@ namespace CapaPresentacion
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVentaAdd));
             this.BtnVenta = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.TxtTelefonoV = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.TxtNombreV = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.TxtDNIV = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.TxtPrecioV = new System.Windows.Forms.TextBox();
@@ -45,14 +41,10 @@ namespace CapaPresentacion
             this.BtnAlquiler = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.BtnCalcular = new System.Windows.Forms.Button();
-            this.TxtTelefonoA = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.DtpFechaAF = new System.Windows.Forms.DateTimePicker();
             this.DtpFechaAI = new System.Windows.Forms.DateTimePicker();
-            this.TxtNombreA = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -77,10 +69,6 @@ namespace CapaPresentacion
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.TxtTelefonoV);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.TxtNombreV);
-            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.TxtDNIV);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.TxtPrecioV);
@@ -93,38 +81,6 @@ namespace CapaPresentacion
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Realizar Venta";
-            // 
-            // TxtTelefonoV
-            // 
-            this.TxtTelefonoV.Location = new System.Drawing.Point(104, 188);
-            this.TxtTelefonoV.Name = "TxtTelefonoV";
-            this.TxtTelefonoV.Size = new System.Drawing.Size(284, 20);
-            this.TxtTelefonoV.TabIndex = 4;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(19, 188);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 13);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Telefono Cliente";
-            // 
-            // TxtNombreV
-            // 
-            this.TxtNombreV.Location = new System.Drawing.Point(104, 146);
-            this.TxtNombreV.Name = "TxtNombreV";
-            this.TxtNombreV.Size = new System.Drawing.Size(284, 20);
-            this.TxtNombreV.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 146);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Nombre Cliente";
             // 
             // TxtDNIV
             // 
@@ -187,14 +143,10 @@ namespace CapaPresentacion
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.BtnCalcular);
-            this.groupBox2.Controls.Add(this.TxtTelefonoA);
-            this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.DtpFechaAF);
             this.groupBox2.Controls.Add(this.DtpFechaAI);
-            this.groupBox2.Controls.Add(this.TxtNombreA);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label7);
@@ -220,22 +172,6 @@ namespace CapaPresentacion
             this.BtnCalcular.UseVisualStyleBackColor = true;
             this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcular_Click);
             // 
-            // TxtTelefonoA
-            // 
-            this.TxtTelefonoA.Location = new System.Drawing.Point(113, 230);
-            this.TxtTelefonoA.Name = "TxtTelefonoA";
-            this.TxtTelefonoA.Size = new System.Drawing.Size(284, 20);
-            this.TxtTelefonoA.TabIndex = 8;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(28, 230);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 13);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "Telefono Cliente";
-            // 
             // DtpFechaAF
             // 
             this.DtpFechaAF.Location = new System.Drawing.Point(150, 78);
@@ -249,14 +185,6 @@ namespace CapaPresentacion
             this.DtpFechaAI.Name = "DtpFechaAI";
             this.DtpFechaAI.Size = new System.Drawing.Size(200, 20);
             this.DtpFechaAI.TabIndex = 0;
-            // 
-            // TxtNombreA
-            // 
-            this.TxtNombreA.Location = new System.Drawing.Point(113, 188);
-            this.TxtNombreA.Name = "TxtNombreA";
-            this.TxtNombreA.Size = new System.Drawing.Size(284, 20);
-            this.TxtNombreA.TabIndex = 7;
-            this.TxtNombreA.TextChanged += new System.EventHandler(this.TxtNombreA_TextChanged);
             // 
             // label11
             // 
@@ -275,15 +203,6 @@ namespace CapaPresentacion
             this.label6.Size = new System.Drawing.Size(117, 13);
             this.label6.TabIndex = 1;
             this.label6.Text = "Fecha de Alquiler Inicio";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(28, 188);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(79, 13);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Nombre Cliente";
             // 
             // label13
             // 
@@ -373,10 +292,6 @@ namespace CapaPresentacion
 
         private System.Windows.Forms.Button BtnVenta;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox TxtTelefonoV;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox TxtNombreV;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox TxtDNIV;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TxtPrecioV;
@@ -386,14 +301,10 @@ namespace CapaPresentacion
         private System.Windows.Forms.Button BtnAlquiler;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button BtnCalcular;
-        private System.Windows.Forms.TextBox TxtTelefonoA;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker DtpFechaAF;
         private System.Windows.Forms.DateTimePicker DtpFechaAI;
-        private System.Windows.Forms.TextBox TxtNombreA;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label7;

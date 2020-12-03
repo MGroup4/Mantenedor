@@ -36,8 +36,7 @@ namespace CapaDatos
             };
 
             conectar.Open();
-
-            SqlCmd.Parameters.AddWithValue("@AlquilerID",alquiler.AlquilerID);           
+      
             SqlCmd.Parameters.AddWithValue("@FechaInicio", alquiler.FechaInicio);
             SqlCmd.Parameters.AddWithValue("@FechaFin", alquiler.FechaFin);
             SqlCmd.Parameters.AddWithValue("@Precio", alquiler.Precio);

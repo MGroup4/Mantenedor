@@ -14,8 +14,7 @@ GO
 
 CREATE TABLE [Venta]
 (
-	[VentaID] int NOT NULL,
-	[AgenteDeInmobiliariaID] int NOT NULL,
+	[VentaID] int NOT NULL
 	[Fecha] datetime NULL,
 	[Precio] int NULL
 )

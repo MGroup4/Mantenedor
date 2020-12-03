@@ -15,6 +15,6 @@ namespace CapaEntidades
         public float Precio { get; set; }
         public int DNICliente { get; set; }
         public int Cuotas { get; set; }
-        public float PrecioPorCuotas { get; set; }
+        public double PrecioPorCuotas { get; set; }
     }
 }

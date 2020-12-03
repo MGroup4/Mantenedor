@@ -40,12 +40,12 @@ namespace CapaPresentacion
         {
             TxtPrecioA.Text = "";
             TxtDNIA.Text = "";
-            TxtNombreA.Text = "";
-            TxtTelefonoA.Text = "";
+            //TxtNombreA.Text = "";
+            //TxtTelefonoA.Text = "";
             TxtPrecioV.Text = "";
             TxtDNIV.Text = "";
-            TxtNombreV.Text = "";
-            TxtTelefonoV.Text = "";
+            //TxtNombreV.Text = "";
+            //TxtTelefonoV.Text = "";
             TxtCuotas.Text = "";
             TxtPrecioCuotas.Text = "";
         }
@@ -79,7 +79,7 @@ namespace CapaPresentacion
                 ObjEntidadA.Precio = Convert.ToInt32(TxtPrecioA.Text);
                 ObjEntidadA.DNICliente = Convert.ToInt32(TxtDNIA.Text);
                 ObjEntidadA.Cuotas = Convert.ToInt32(TxtCuotas.Text);
-
+                ObjEntidadA.PrecioPorCuotas = Convert.ToDouble(TxtPrecioA.Text) / Convert.ToDouble(TxtCuotas.Text);
 
                 ObjNegocioA.InsertarRegistro(ObjEntidadA);
 
@@ -99,6 +99,41 @@ namespace CapaPresentacion
         }
 
         private void TxtNombreA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtTelefonoA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtNombreV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtTelefonoV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

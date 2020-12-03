@@ -37,7 +37,7 @@ namespace CapaDatos
 
             conectar.Open();
 
-            SqlCmd.Parameters.AddWithValue("@VentaID", venta.VentaID);            
+            SqlCmd.Parameters.AddWithValue("@ClienteDNI", venta.DNICliente);
             SqlCmd.Parameters.AddWithValue("@Fecha", venta.Fecha);
             SqlCmd.Parameters.AddWithValue("@Precio", venta.Precio);
 

@@ -7,7 +7,6 @@ GO
 CREATE TABLE [Alquiler]
 (
 	[AlquilerID] int NOT NULL,
-	[AgenteDeInmobiliariaID] int NOT NULL,
 	[FechaInicio] date NULL,
 	[FechaFin] date NULL,
 	[Precio] float NULL,
