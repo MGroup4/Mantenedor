@@ -40,6 +40,9 @@ namespace CapaPresentacion
             // 
             // dgvPropiedadesDispo
             // 
+            this.dgvPropiedadesDispo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPropiedadesDispo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPropiedadesDispo.Location = new System.Drawing.Point(13, 61);
             this.dgvPropiedadesDispo.Name = "dgvPropiedadesDispo";
@@ -55,29 +58,31 @@ namespace CapaPresentacion
             this.label1.Size = new System.Drawing.Size(185, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Propiedades disponibles:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonComprarAlquilar
             // 
+            this.buttonComprarAlquilar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonComprarAlquilar.Location = new System.Drawing.Point(672, 507);
             this.buttonComprarAlquilar.Name = "buttonComprarAlquilar";
             this.buttonComprarAlquilar.Size = new System.Drawing.Size(203, 54);
             this.buttonComprarAlquilar.TabIndex = 2;
             this.buttonComprarAlquilar.Text = "Comprar/Alquilar";
             this.buttonComprarAlquilar.UseVisualStyleBackColor = true;
+            this.buttonComprarAlquilar.Click += new System.EventHandler(this.buttonComprarAlquilar_Click);
             // 
             // buttonMostrarInfo
             // 
+            this.buttonMostrarInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonMostrarInfo.Location = new System.Drawing.Point(672, 428);
             this.buttonMostrarInfo.Name = "buttonMostrarInfo";
             this.buttonMostrarInfo.Size = new System.Drawing.Size(203, 54);
             this.buttonMostrarInfo.TabIndex = 3;
             this.buttonMostrarInfo.Text = "Mostrar Información";
             this.buttonMostrarInfo.UseVisualStyleBackColor = true;
-            this.buttonMostrarInfo.Click += new System.EventHandler(this.button2_Click);
             // 
             // buttonMostrarVenta
             // 
+            this.buttonMostrarVenta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonMostrarVenta.Location = new System.Drawing.Point(672, 61);
             this.buttonMostrarVenta.Name = "buttonMostrarVenta";
             this.buttonMostrarVenta.Size = new System.Drawing.Size(212, 54);
@@ -87,6 +92,7 @@ namespace CapaPresentacion
             // 
             // buttonMostrarAlquiler
             // 
+            this.buttonMostrarAlquiler.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonMostrarAlquiler.Location = new System.Drawing.Point(672, 132);
             this.buttonMostrarAlquiler.Name = "buttonMostrarAlquiler";
             this.buttonMostrarAlquiler.Size = new System.Drawing.Size(212, 54);
@@ -107,9 +113,9 @@ namespace CapaPresentacion
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvPropiedadesDispo);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormPropiedadesDispo";
             this.Text = "FormPropiedades";
-            this.Load += new System.EventHandler(this.FormPropiedadesDispo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPropiedadesDispo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

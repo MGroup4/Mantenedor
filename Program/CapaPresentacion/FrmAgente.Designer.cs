@@ -197,7 +197,7 @@ namespace CapaPresentacion
             this.label5.TabIndex = 0;
             this.label5.Text = "Nombre:";
             // 
-            // FormAgentes
+            // FrmAgente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -207,7 +207,8 @@ namespace CapaPresentacion
             this.Controls.Add(this.BtnEditar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DGV);
-            this.Name = "FormAgentes";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FrmAgente";
             this.Text = "FormAgentes";
             this.Load += new System.EventHandler(this.FormAgentes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();

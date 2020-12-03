@@ -60,7 +60,7 @@ namespace CapaPresentacion
             this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV.Location = new System.Drawing.Point(13, 40);
             this.DGV.Name = "DGV";
-            this.DGV.Size = new System.Drawing.Size(587, 482);
+            this.DGV.Size = new System.Drawing.Size(587, 503);
             this.DGV.TabIndex = 0;
             // 
             // label1
@@ -260,13 +260,14 @@ namespace CapaPresentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(873, 542);
+            this.ClientSize = new System.Drawing.Size(873, 557);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BtnEliminar);
             this.Controls.Add(this.BtnEditar);
             this.Controls.Add(this.BtnGuardarr);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DGV);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPropiedad";
             this.Text = "FormAgenteInmobiliario";
             this.Load += new System.EventHandler(this.FrmPropiedad_Load);
