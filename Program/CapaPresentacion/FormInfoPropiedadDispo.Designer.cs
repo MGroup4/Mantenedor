@@ -36,15 +36,16 @@ namespace CapaPresentacion
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.richTextBoxObservaciones = new System.Windows.Forms.RichTextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBoxUbicacion = new System.Windows.Forms.TextBox();
-            this.textBoxPrecio = new System.Windows.Forms.TextBox();
-            this.textBoxCantDormitorios = new System.Windows.Forms.TextBox();
-            this.textBoxCantBanios = new System.Windows.Forms.TextBox();
-            this.textBoxEstacionamiento = new System.Windows.Forms.TextBox();
-            this.textBoxTamanio = new System.Windows.Forms.TextBox();
+            this.TxtUbicacion = new System.Windows.Forms.TextBox();
+            this.TxtPrecio = new System.Windows.Forms.TextBox();
+            this.TxtDormitorios = new System.Windows.Forms.TextBox();
+            this.TxtBaños = new System.Windows.Forms.TextBox();
+            this.TxtEstacionamiento = new System.Windows.Forms.TextBox();
+            this.TxtTamaño = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.DGV = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImgPropiedad)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxImgPropiedad
@@ -104,7 +105,6 @@ namespace CapaPresentacion
             this.label5.Size = new System.Drawing.Size(111, 16);
             this.label5.TabIndex = 5;
             this.label5.Text = "Estacionamiento:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -116,79 +116,78 @@ namespace CapaPresentacion
             this.label6.TabIndex = 6;
             this.label6.Text = "Tamaño en m2:";
             // 
-            // richTextBoxObservaciones
+            // TxtUbicacion
             // 
-            this.richTextBoxObservaciones.Location = new System.Drawing.Point(22, 488);
-            this.richTextBoxObservaciones.Name = "richTextBoxObservaciones";
-            this.richTextBoxObservaciones.Size = new System.Drawing.Size(833, 118);
-            this.richTextBoxObservaciones.TabIndex = 7;
-            this.richTextBoxObservaciones.Text = "";
+            this.TxtUbicacion.Location = new System.Drawing.Point(629, 41);
+            this.TxtUbicacion.Name = "TxtUbicacion";
+            this.TxtUbicacion.Size = new System.Drawing.Size(229, 20);
+            this.TxtUbicacion.TabIndex = 9;
             // 
-            // label7
+            // TxtPrecio
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(626, 452);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(117, 16);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Observaciones:";
+            this.TxtPrecio.Location = new System.Drawing.Point(630, 104);
+            this.TxtPrecio.Name = "TxtPrecio";
+            this.TxtPrecio.Size = new System.Drawing.Size(228, 20);
+            this.TxtPrecio.TabIndex = 10;
             // 
-            // textBoxUbicacion
+            // TxtDormitorios
             // 
-            this.textBoxUbicacion.Location = new System.Drawing.Point(629, 41);
-            this.textBoxUbicacion.Name = "textBoxUbicacion";
-            this.textBoxUbicacion.Size = new System.Drawing.Size(229, 20);
-            this.textBoxUbicacion.TabIndex = 9;
+            this.TxtDormitorios.Location = new System.Drawing.Point(630, 175);
+            this.TxtDormitorios.Name = "TxtDormitorios";
+            this.TxtDormitorios.Size = new System.Drawing.Size(228, 20);
+            this.TxtDormitorios.TabIndex = 11;
             // 
-            // textBoxPrecio
+            // TxtBaños
             // 
-            this.textBoxPrecio.Location = new System.Drawing.Point(630, 104);
-            this.textBoxPrecio.Name = "textBoxPrecio";
-            this.textBoxPrecio.Size = new System.Drawing.Size(228, 20);
-            this.textBoxPrecio.TabIndex = 10;
+            this.TxtBaños.Location = new System.Drawing.Point(630, 238);
+            this.TxtBaños.Name = "TxtBaños";
+            this.TxtBaños.Size = new System.Drawing.Size(228, 20);
+            this.TxtBaños.TabIndex = 12;
             // 
-            // textBoxCantDormitorios
+            // TxtEstacionamiento
             // 
-            this.textBoxCantDormitorios.Location = new System.Drawing.Point(630, 175);
-            this.textBoxCantDormitorios.Name = "textBoxCantDormitorios";
-            this.textBoxCantDormitorios.Size = new System.Drawing.Size(228, 20);
-            this.textBoxCantDormitorios.TabIndex = 11;
+            this.TxtEstacionamiento.Location = new System.Drawing.Point(630, 299);
+            this.TxtEstacionamiento.Name = "TxtEstacionamiento";
+            this.TxtEstacionamiento.Size = new System.Drawing.Size(228, 20);
+            this.TxtEstacionamiento.TabIndex = 13;
             // 
-            // textBoxCantBanios
+            // TxtTamaño
             // 
-            this.textBoxCantBanios.Location = new System.Drawing.Point(630, 238);
-            this.textBoxCantBanios.Name = "textBoxCantBanios";
-            this.textBoxCantBanios.Size = new System.Drawing.Size(228, 20);
-            this.textBoxCantBanios.TabIndex = 12;
+            this.TxtTamaño.Location = new System.Drawing.Point(630, 363);
+            this.TxtTamaño.Name = "TxtTamaño";
+            this.TxtTamaño.Size = new System.Drawing.Size(228, 20);
+            this.TxtTamaño.TabIndex = 14;
             // 
-            // textBoxEstacionamiento
+            // button1
             // 
-            this.textBoxEstacionamiento.Location = new System.Drawing.Point(630, 299);
-            this.textBoxEstacionamiento.Name = "textBoxEstacionamiento";
-            this.textBoxEstacionamiento.Size = new System.Drawing.Size(228, 20);
-            this.textBoxEstacionamiento.TabIndex = 13;
+            this.button1.Location = new System.Drawing.Point(713, 407);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 45);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Cargar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBoxTamanio
+            // DGV
             // 
-            this.textBoxTamanio.Location = new System.Drawing.Point(630, 363);
-            this.textBoxTamanio.Name = "textBoxTamanio";
-            this.textBoxTamanio.Size = new System.Drawing.Size(228, 20);
-            this.textBoxTamanio.TabIndex = 14;
+            this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV.Location = new System.Drawing.Point(22, 494);
+            this.DGV.Name = "DGV";
+            this.DGV.Size = new System.Drawing.Size(816, 130);
+            this.DGV.TabIndex = 16;
             // 
-            // FormInfoPropiedad
+            // FormInfoPropiedadDispo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 630);
-            this.Controls.Add(this.textBoxTamanio);
-            this.Controls.Add(this.textBoxEstacionamiento);
-            this.Controls.Add(this.textBoxCantBanios);
-            this.Controls.Add(this.textBoxCantDormitorios);
-            this.Controls.Add(this.textBoxPrecio);
-            this.Controls.Add(this.textBoxUbicacion);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.richTextBoxObservaciones);
+            this.Controls.Add(this.DGV);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.TxtTamaño);
+            this.Controls.Add(this.TxtEstacionamiento);
+            this.Controls.Add(this.TxtBaños);
+            this.Controls.Add(this.TxtDormitorios);
+            this.Controls.Add(this.TxtPrecio);
+            this.Controls.Add(this.TxtUbicacion);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -196,9 +195,10 @@ namespace CapaPresentacion
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBoxImgPropiedad);
-            this.Name = "FormInfoPropiedad";
+            this.Name = "FormInfoPropiedadDispo";
             this.Text = "FormInfoPropiedad";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImgPropiedad)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,13 +213,13 @@ namespace CapaPresentacion
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RichTextBox richTextBoxObservaciones;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBoxUbicacion;
-        private System.Windows.Forms.TextBox textBoxPrecio;
-        private System.Windows.Forms.TextBox textBoxCantDormitorios;
-        private System.Windows.Forms.TextBox textBoxCantBanios;
-        private System.Windows.Forms.TextBox textBoxEstacionamiento;
-        private System.Windows.Forms.TextBox textBoxTamanio;
+        private System.Windows.Forms.TextBox TxtUbicacion;
+        private System.Windows.Forms.TextBox TxtPrecio;
+        private System.Windows.Forms.TextBox TxtDormitorios;
+        private System.Windows.Forms.TextBox TxtBaños;
+        private System.Windows.Forms.TextBox TxtEstacionamiento;
+        private System.Windows.Forms.TextBox TxtTamaño;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView DGV;
     }
 }
