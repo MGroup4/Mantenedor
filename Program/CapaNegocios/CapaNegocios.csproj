@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="N_AgenteInmobiliaria.cs" />
+    <Compile Include="N_Alquiler.cs" />
     <Compile Include="N_Cliente.cs" />
     <Compile Include="N_Propiedad.cs" />
     <Compile Include="N_Propietario.cs" />
