@@ -34,11 +34,8 @@
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.PView = new System.Windows.Forms.Panel();
             this.Pvie = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -74,7 +71,7 @@
             this.bunifuFlatButton4.IconVisible = true;
             this.bunifuFlatButton4.IconZoom = 90D;
             this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(12, 426);
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(12, 380);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
             this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -109,7 +106,7 @@
             this.bunifuFlatButton3.IconVisible = true;
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(12, 351);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(12, 326);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -179,7 +176,7 @@
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(12, 208);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(12, 218);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -193,28 +190,12 @@
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.PView);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(200, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(984, 100);
-            this.panel2.TabIndex = 1;
-            // 
-            // PView
-            // 
-            this.PView.Location = new System.Drawing.Point(6, 148);
-            this.PView.Name = "PView";
-            this.PView.Size = new System.Drawing.Size(984, 584);
-            this.PView.TabIndex = 1;
-            // 
             // Pvie
             // 
             this.Pvie.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Pvie.Location = new System.Drawing.Point(200, 100);
+            this.Pvie.Location = new System.Drawing.Point(200, 0);
             this.Pvie.Name = "Pvie";
-            this.Pvie.Size = new System.Drawing.Size(984, 591);
+            this.Pvie.Size = new System.Drawing.Size(984, 691);
             this.Pvie.TabIndex = 2;
             // 
             // FrmPrincipal
@@ -223,14 +204,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 691);
             this.Controls.Add(this.Pvie);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Comfy House";
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -238,8 +218,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel PView;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
